@@ -1,0 +1,4 @@
+<< /proc/cmdline >>:
+console=tty0 console=ttyMT0,921600n1 earlycon=uartmtk,mmio32,0x11002000,921600n1  root=/dev/ram vmalloc=496M slub_max_order=0 slub_debug=O androidboot.hardware=mt6797 maxcpus=4 androidboot.verifiedbootstate=green bootopt=64S3,32N2,64N2 lcm=1-d53g_fhd_dsi_cmd_sec fps=5961 vram=29229056 printk.disable_uart=1 bootprof.pl_t=1305 bootprof.lk_t=3240 boot_reason=4 androidboot.serialno=80QBCNJ22CW6 androidboot.bootreason=wdt_by_pass_pwk gpt=1 usb2jtag_mode=0
+================ END of FILE ===============
+

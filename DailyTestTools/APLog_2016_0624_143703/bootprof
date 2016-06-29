@@ -1,0 +1,62 @@
+<< /proc/bootprof >>:
+----------------------------------------
+0	    BOOT PROF (unit:msec)
+----------------------------------------
+      1305        : preloader
+      3240        : lk
+----------------------------------------
+        45.110615 : ON
+       108.137538 : cma_init_reserved_areas   32441923 ns
+       132.638923 : of_init   23156461 ns
+       175.270538 : ramoops_init   41666385 ns
+       199.609846 : init_mtk_governor   21698077 ns
+       269.244308 : arm64_device_init   57234769 ns
+       309.228769 : pm_sysrq_init   29093615 ns
+       388.712308 : event_trace_init   36995539 ns
+       415.755616 : pmic_mt_init   21508462 ns
+       518.483001 : populate_rootfs   94751847 ns
+       610.197924 : mtu3d_driver_init   18714846 ns
+       634.288386 : mtkfb_init   21131384 ns
+       792.050540 : modem_cd_init  135314078 ns
+      1001.457079 : md_ccif_init  209366154 ns
+      1143.631233 : gf_init   87816385 ns
+      1794.436773 : mt_i2c_init  650772693 ns
+      1866.946773 : cs43l36_init   42883000 ns
+      1941.838696 : tfa98xx_i2c_init   36097154 ns
+      2026.629158 : clk_debug_init   19243385 ns
+      2044.238081 : Kernel_init_done
+      2925.404006 : INIT: on init start
+      2936.055160 : INIT:Mount_START
+      3584.699854 : INIT:Mount_END
+      3587.979393 : start mobicore (on fs)
+      3591.291316 : start mobicore end (on fs)
+      3805.881470 : post-fs-data: on modem start
+      5260.538089 : BOOT_Animation:START
+      6301.889938 : Zygote:Preload Start
+      6594.517323 : Zygote:Preload Start
+      8159.307403 : Zygote:Preload 3831 classes in 1242ms
+      8174.639711 : Zygote:Preload 3831 classes in 1383ms
+      9005.065636 : Zygote:Preload 342 obtain resources in 833ms
+      9006.272021 : Zygote:Preload 342 obtain resources in 829ms
+      9011.117636 : Zygote:Preload 41 resources in 6ms
+      9014.183252 : Zygote:Preload 41 resources in 8ms
+      9472.996868 : Zygote:Preload End
+      9686.634023 : Zygote:Preload End
+      9745.332869 : Android:SysServerInit_START
+     10251.754024 : Android:PackageManagerService_Start
+     10671.039948 : Android:PMS_scan_START
+     10884.819795 : Android:PMS_scan_data_done:/system/framework
+     12174.789182 : Android:PMS_scan_data_done:/system/priv-app
+     13692.777955 : Android:PMS_scan_data_done:/system/app
+     13733.405032 : Android:PMS_scan_data_done:/system/vendor/operator/app
+     13746.773801 : Android:PMS_scan_data_done:/custom/app
+     13754.793801 : Android:PMS_scan_data_done:/custom/plugin
+     17609.908734 : Android:PMS_scan_data_done:/data/app
+     17631.252272 : Android:PMS_scan_END
+     18097.371350 : Android:PMS_READY
+     24069.891672 : Android:SysServerInit_END
+     26559.131370 : BOOT_Animation:END
+     26559.176755 : OFF
+----------------------------------------
+================ END of FILE ===============
+

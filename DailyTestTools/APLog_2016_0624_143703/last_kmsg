@@ -1,0 +1,1573 @@
+<< /proc/last_kmsg >>:
+ram console header, hw_status: 2, fiq step 0.
+)(4)(2)(0)(1)(0) (0)(478)(0)(0) (0)<4>(0)
+[21603.279501] -(0)[0:swapper/0]CPU0: Booted secondary processor
+[21603.279569] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+[21603.279634] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+[21603.279897] -(0)[0:swapper/0]CPU0: update cpu_capacity 304
+[21603.284385]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+[21603.284453]  (0)[216:hps_main][CPUHVFS] (0) [049bb489] cluster0 on, pause = 0x0, swctrl = 0x27f0 (0x9c100)
+[21603.285736] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[21603.285751] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+[21603.285767] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+[21603.285885] -(1)[0:swapper/1]CPU1: update cpu_capacity 304
+[21603.287384] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21603.287406] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21603.287428] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21603.287554] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21603.289249] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21603.289272] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21603.289293] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21603.289424] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21603.291212]  (3)[216:hps_main][HPS] (0x7F00)(0)<4>(0) action end (398)(801)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(0)(801)(1) (4)<4>(0)
+[21603.331515]  (2)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21603.333510]  (2)[216:hps_main]CPU3: shutdown
+[21603.333550]  (2)[216:hps_main]psci: CPU3 killed.
+[21603.334499]  (2)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21603.335277]  (2)[216:hps_main][HPS] (0x7F03)(4)<4>(0) action end (731)(968)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(731)(0)(0) (3)<4>(0)
+[21603.375605]  (1)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21603.377368]  (1)[216:hps_main]CPU2: shutdown
+[21603.377409]  (1)[216:hps_main]psci: CPU2 killed.
+[21603.378375]  (1)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21603.379185]  (1)[216:hps_main][HPS] (0x7F03)(3)<4>(0) action end (617)(885)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(617)(0)(0) (2)<4>(0)
+[21603.419488]  (5)[216:hps_main]MobiCore mcd: Cpu 1 is going to die
+[21603.421016]  (5)[216:hps_main]CPU1: shutdown
+[21603.421055]  (5)[216:hps_main]psci: CPU1 killed.
+[21603.421999]  (5)[216:hps_main]MobiCore mcd: Cpu 1 is dead
+[21603.422756]  (5)[216:hps_main][HPS] (0x7F03)(2)<4>(0) action end (546)(698)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(546)(0)(0) (1)<4>(0)
+[21603.463069]  (0)[216:hps_main]MobiCore mcd: Cpu 0 is going to die
+[21603.463121]  (0)[216:hps_main][CPUHVFS] (0) [049bcb68] cluster0 off, pause = 0x0, swctrl = 0x57f0 (0x9c177)
+[21603.468016]  (7)[216:hps_main]CPU0: shutdown
+[21603.468068]  (7)[216:hps_main]psci: CPU0 killed.
+[21603.469091]  (7)[216:hps_main]MobiCore mcd: Cpu 0 is dead
+[21603.469876]  (7)[216:hps_main][HPS] (0x7F03)(1)<4>(0) action end (464)(595)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(464)(0)(0) (0)<4>(0)
+[21603.631682] -(0)[0:swapper/0]CPU0: Booted secondary processor
+[21603.631749] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+[21603.631812] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+[21603.632069] -(0)[0:swapper/0]CPU0: update cpu_capacity 304
+[21603.635740]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+[21603.635802]  (0)[216:hps_main][CPUHVFS] (0) [049be182] cluster0 on, pause = 0x0, swctrl = 0x27f0 (0x9c100)
+[21603.637175] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[21603.637191] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+[21603.637208] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+[21603.637317] -(1)[0:swapper/1]CPU1: update cpu_capacity 304
+[21603.638803] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21603.638826] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21603.638848] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21603.638988] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21603.640400]  (1)[216:hps_main][HPS] (0x7F00)(0)<4>(0) action end (396)(732)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(0)(732)(1) (3)<4>(0)
+[21603.680770]  (0)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21603.682691]  (0)[216:hps_main]CPU2: shutdown
+[21603.682733]  (0)[216:hps_main]psci: CPU2 killed.
+[21603.683604] AEE_MONITOR_SET[status]: 0x1
+[21603.683692]  (0)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21603.684483]  (0)[216:hps_main][HPS] (0x7F03)(3)<4>(0) action end (653)(943)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(653)(0)(0) (2)<4>(0)
+[21603.684501]  (0)[216:hps_main][HPS] (0x7F03)(3)<4>(0) HRT_BT_DBG (653)(943)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(653)(0)(0) (2)<4>(0)
+[21603.724797]  (7)[216:hps_main]MobiCore mcd: Cpu 1 is going to die
+[21603.726610]  (0)[216:hps_main]CPU1: shutdown
+[21603.726648]  (0)[216:hps_main]psci: CPU1 killed.
+[21603.727679]  (0)[216:hps_main]MobiCore mcd: Cpu 1 is dead
+[21603.728439]  (0)[216:hps_main][HPS] (0x7F03)(2)<4>(0) action end (519)(647)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(519)(0)(0) (1)<4>(0)
+[21603.768755]  (7)[216:hps_main]MobiCore mcd: Cpu 0 is going to die
+[21603.768804]  (7)[216:hps_main][CPUHVFS] (0) [049bf289] cluster0 off, pause = 0x0, swctrl = 0x56f0 (0x9c166)
+[21603.771564]  (6)[216:hps_main]CPU0: shutdown
+[21603.771803]  (6)[216:hps_main]psci: CPU0 killed.
+[21603.772744]  (6)[216:hps_main]MobiCore mcd: Cpu 0 is dead
+[21603.773546]  (6)[216:hps_main][HPS] (0x7F03)(1)<4>(0) action end (462)(718)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(462)(0)(0) (0)<4>(0)
+[21603.935335] -(0)[0:swapper/0]CPU0: Booted secondary processor
+[21603.935432] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+[21603.935493] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+[21603.935756] -(0)[0:swapper/0]CPU0: update cpu_capacity 304
+[21603.939569]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+[21603.939632]  (0)[216:hps_main][CPUHVFS] (0) [049c0866] cluster0 on, pause = 0x0, swctrl = 0x26f0 (0x9c100)
+[21603.940940] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[21603.940955] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+[21603.940972] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+[21603.941084] -(1)[0:swapper/1]CPU1: update cpu_capacity 304
+[21603.942660] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21603.942684] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21603.942706] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21603.942833] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21603.944390]  (2)[216:hps_main][HPS] (0x7F00)(0)<4>(0) action end (393)(764)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(0)(764)(1) (3)<4>(0)
+[21603.984722]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21603.986366]  (7)[216:hps_main]CPU2: shutdown
+[21603.986405]  (7)[216:hps_main]psci: CPU2 killed.
+[21603.987229]  (7)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21603.988031]  (7)[216:hps_main][HPS] (0x7F03)(3)<4>(0) action end (524)(662)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(524)(0)(0) (2)<4>(0)
+[21604.028316]  (1)[216:hps_main]MobiCore mcd: Cpu 1 is going to die
+[21604.029924]  (0)[216:hps_main]CPU1: shutdown
+[21604.029966]  (0)[216:hps_main]psci: CPU1 killed.
+[21604.030816]  (0)[216:hps_main]MobiCore mcd: Cpu 1 is dead
+[21604.031546]  (0)[216:hps_main][HPS] (0x7F03)(2)<4>(0) action end (522)(649)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(522)(0)(0) (1)<4>(0)
+[21604.071849]  (6)[216:hps_main]MobiCore mcd: Cpu 0 is going to die
+[21604.071898]  (6)[216:hps_main][CPUHVFS] (0) [049c1955] cluster0 off, pause = 0x0, swctrl = 0x57f0 (0x9c177)
+[21604.076162]  (4)[216:hps_main]CPU0: shutdown
+[21604.076214]  (4)[216:hps_main]psci: CPU0 killed.
+[21604.077163]  (4)[216:hps_main]MobiCore mcd: Cpu 0 is dead
+[21604.078029]  (4)[216:hps_main][HPS] (0x7F03)(1)<4>(0) action end (446)(588)(0) (0)(0)(0) (4)(4)(2)(0)(1)(0) (0)(446)(0)(0) (0)<4>(0)
+[21604.387575] -(4)[0:swapper/4]Power/swap CNT(soidle,rgidle): [0] = (177547,8902694), [1] = (0,6617258), [2] = (0,4169774), [3] = (0,1340895), [4] = (1015,3413741), [5] = (0,2905726), [6] = (0,2040713), [7] = (0,941410), [8] = (0,15025), [9] = (0,2076), 
+[21604.387602] -(4)[0:swapper/4]Power/swap soidle_block_cnt: [by_cpu] = 165493, [by_clk] = 2625, [by_tmr] = 0, [by_oth] = 0, [by_vtg] = 0, [by_frm] = 0, [by_pll] = 0, [by_pwm] = 0, [by_dvfsp] = 0, 
+[21604.387615] -(4)[0:swapper/4]Power/swap soidle_block_mask: 0x00040000, 0x00001000, 0x01040200, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 
+[21604.479469]  (5)[216:hps_main][Power/PPM] (0x438)(1500)(1)[4L_LL]->[L_ONLY]: (15)(8)(0)(0) (8)(8)(1)(4) (15)(7)(0)(0) 
+[21604.479503]  (5)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21604.640078]  (6)[216:hps_main][Power/PPM] (0x438)(1500)(0)[L_ONLY]->[LL_ONLY]: (3)(0)(1)(4) (8)(8)(0)(0) (15)(7)(0)(0) 
+[21604.640123]  (6)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21604.641356] -(0)[0:swapper/0]CPU0: Booted secondary processor
+[21604.641422] -(0)[0:swapper/0]Detected VIPT I-cache on CPU0
+[21604.641484] -(0)[0:swapper/0]CPU0: found redistributor 0 @ffffff8000080000
+[21604.641741] -(0)[0:swapper/0]CPU0: update cpu_capacity 304
+[21604.645329]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_LL freq = 221000
+[21604.645392]  (0)[216:hps_main][CPUHVFS] (0) [049c62bd] cluster0 on, pause = 0x0, swctrl = 0x27f0 (0x9c100)
+[21604.646544] -(1)[0:swapper/1]CPU1: Booted secondary processor
+[21604.646559] -(1)[0:swapper/1]Detected VIPT I-cache on CPU1
+[21604.646576] -(1)[0:swapper/1]CPU1: found redistributor 1 @ffffff80000a0000
+[21604.646599]  (6)[96:pbm][Power/PPM] (0x438)(1500)(0)[LL_ONLY]: (15)(0)(1)(4) (8)(8)(0)(0) (15)(7)(0)(0) 
+[21604.646686] -(1)[0:swapper/1]CPU1: update cpu_capacity 304
+[21604.648142] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21604.648164] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21604.648184] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21604.648313] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21604.650244] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21604.650265] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21604.650287] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21604.650413] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21604.652236]  (0)[216:hps_main]MobiCore mcd: Cpu 7 is going to die
+[21604.654943]  (0)[216:hps_main]CPU7: shutdown
+[21604.654986]  (0)[216:hps_main]psci: CPU7 killed.
+[21604.656371]  (0)[216:hps_main]MobiCore mcd: Cpu 7 is dead
+[21604.657219]  (0)[216:hps_main]MobiCore mcd: Cpu 6 is going to die
+[21604.658893]  (0)[216:hps_main]CPU6: shutdown
+[21604.658938]  (0)[216:hps_main]psci: CPU6 killed.
+[21604.660226]  (0)[216:hps_main]MobiCore mcd: Cpu 6 is dead
+[21604.661142]  (0)[216:hps_main]MobiCore mcd: Cpu 5 is going to die
+[21604.662679]  (1)[216:hps_main]CPU5: shutdown
+[21604.662720]  (1)[216:hps_main]psci: CPU5 killed.
+[21604.663953]  (1)[216:hps_main]MobiCore mcd: Cpu 5 is dead
+[21604.664763]  (1)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21604.665146]  (0)[216:hps_main][CPUHVFS] (0) [049c6545] cluster1 off, pause = 0x0, swctrl = 0x57f0 (0x9c177)
+[21604.668358]  (0)[216:hps_main]CPU4: shutdown
+[21604.668502]  (0)[216:hps_main]psci: CPU4 killed.
+[21604.670172]  (0)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21604.672016]  (0)[216:hps_main][HPS] (0x7F03)(0)<4>(0) action end (370)(690)(0) (0)(0)(0) (4)(0)(0)(1)(0)(0) (0)(370)(0)(0) <4>(0)(0)
+[21604.684103] AEE_MONITOR_SET[status]: 0x1
+[21604.688607]  (3)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21604.688640]  (3)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21604.702900]  (0)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21604.702928]  (0)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21604.810081]  (0)[398:batterywarning][Battery] show_BatteryNotify : 0
+[21604.861400]  (0)[170:krtatm][Power/gpufreq] @mt_gpufreq_thermal_protect: p 0 f 0 i 0
+[21604.935091]  (1)[565:DispSync]@mt_gpufreq_clock_switch_transient: request GPU dds = 0xa0000, cur_volt = 101343, cur_freq = 610000
+[21604.935111]  (1)[565:DispSync]@mt_gpufreq_clock_switch: freq_new = 520000, mfgpll = 0x810a0000
+[21604.993097]  (2)[216:hps_main][Power/PPM] (0x430)(13491)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21604.993126]  (2)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21604.994347] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21604.994396] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21604.994443] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21604.994674] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21604.997260]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21604.997306]  (4)[216:hps_main][CPUHVFS] (0) [049c8fc9] cluster1 on, pause = 0x0, swctrl = 0x27f0 (0xfd100)
+[21604.998411]  (4)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21604.999638]  (1)[216:hps_main]CPU3: shutdown
+[21604.999665]  (1)[216:hps_main]psci: CPU3 killed.
+[21605.000572]  (1)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21605.001309]  (1)[216:hps_main][HPS] (0x70E1)<4>(0)(0) action end (321)(479)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(321)(0)(0) <3>(1)(0)
+[21605.041706] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21605.041729] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21605.041749] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21605.041874] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21605.043050]  (3)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21605.043087]  (3)[216:hps_main][CPUHVFS] (0) [049c95a6] cluster1 off, pause = 0x0, swctrl = 0x5df0 (0xfd1dd)
+[21605.047838]  (3)[216:hps_main]CPU4: shutdown
+[21605.047995]  (3)[216:hps_main]psci: CPU4 killed.
+[21605.048892]  (3)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21605.049652]  (3)[216:hps_main][HPS] (0x7F03)<3>(1)(0) action end (353)(522)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(353)(0)(0) <4>(0)(0)
+[21605.170017]  (0)[216:hps_main][Power/PPM] (0x430)(13490)(0)[4LL_L]->[LL_ONLY]: (15)(0)(1)(4) (15)(2)(0)(0) (15)(7)(0)(0) 
+[21605.170035]  (0)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.210255]  (3)[216:hps_main][Power/PPM] (0x430)(13490)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21605.210272]  (3)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.211444] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21605.211494] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21605.211540] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21605.211754] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21605.214349]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21605.214395]  (4)[216:hps_main][CPUHVFS] (0) [049cab93] cluster1 on, pause = 0x0, swctrl = 0x2df0 (0xfd100)
+[21605.215106]  (4)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21605.216436]  (1)[216:hps_main]CPU3: shutdown
+[21605.216466]  (1)[216:hps_main]psci: CPU3 killed.
+[21605.217346]  (1)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21605.218037]  (1)[216:hps_main][HPS] (0x70E1)<4>(0)(0) action end (379)(742)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(379)(0)(0) <3>(1)(0)
+[21605.258406] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21605.258427] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21605.258445] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21605.258574] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21605.259738]  (3)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21605.259774]  (3)[216:hps_main][CPUHVFS] (0) [049cb162] cluster1 off, pause = 0x0, swctrl = 0x5df0 (0xfd1dd)
+[21605.262301]  (1)[216:hps_main]CPU4: shutdown
+[21605.262379]  (1)[216:hps_main]psci: CPU4 killed.
+[21605.263219]  (1)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21605.263989]  (1)[216:hps_main][HPS] (0x7F03)<3>(1)(0) action end (354)(553)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(354)(0)(0) <4>(0)(0)
+[21605.384381]  (3)[216:hps_main][Power/PPM] (0x430)(13340)(0)[4LL_L]->[LL_ONLY]: (15)(0)(1)(4) (15)(2)(0)(0) (15)(7)(0)(0) 
+[21605.384401]  (3)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.410582]  (0)[171:hang_detect][Hang_Detect] init found pid:1.
+[21605.410720]  (0)[171:hang_detect][Hang_Detect] mmcqd/0 found pid:192.
+[21605.410745]  (0)[171:hang_detect][Hang_Detect] hps_main found pid:216.
+[21605.410798]  (0)[171:hang_detect][Hang_Detect] surfaceflinger found pid:335.
+[21605.410818]  (0)[171:hang_detect][Hang_Detect] debuggerd found pid:368.
+[21605.410824]  (0)[171:hang_detect][Hang_Detect] debuggerd64 found pid:369.
+[21605.410870]  (0)[171:hang_detect][Hang_Detect] system_server found pid:1023.
+[21605.410879]  (0)[171:hang_detect][Hang_Detect] ndroid.systemui found pid:1337.
+[21605.410971]  (0)[171:hang_detect][Hang_Detect] hang_detect thread counts down 10:10.
+[21605.464742]  (2)[216:hps_main][Power/PPM] (0x430)(13340)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21605.464763]  (2)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.465949] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21605.465999] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21605.466049] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21605.466271] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21605.468726]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21605.468771]  (4)[216:hps_main][CPUHVFS] (0) [049ccc22] cluster1 on, pause = 0x0, swctrl = 0x2df0 (0xfd100)
+[21605.469841]  (4)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21605.470869]  (4)[216:hps_main]CPU3: shutdown
+[21605.470894]  (4)[216:hps_main]psci: CPU3 killed.
+[21605.471541]  (4)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21605.472219]  (4)[216:hps_main][HPS] (0x70E1)<4>(0)(0) action end (353)(606)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(353)(0)(0) <3>(1)(0)
+[21605.512566] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21605.512588] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21605.512609] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21605.512743] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21605.513890]  (2)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21605.513949]  (2)[216:hps_main][CPUHVFS] (0) [049cd1eb] cluster1 off, pause = 0x0, swctrl = 0x5df0 (0xfd1dd)
+[21605.517618]  (1)[216:hps_main]CPU4: shutdown
+[21605.517782]  (1)[216:hps_main]psci: CPU4 killed.
+[21605.518679]  (1)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21605.519418]  (1)[216:hps_main][HPS] (0x7F03)<3>(1)(0) action end (335)(532)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(335)(0)(0) <4>(0)(0)
+[21605.639796]  (1)[216:hps_main][Power/PPM] (0x430)(13473)(0)[4LL_L]->[LL_ONLY]: (15)(0)(1)(4) (15)(2)(0)(0) (15)(7)(0)(0) 
+[21605.639815]  (1)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.684894] AEE_MONITOR_SET[status]: 0x1
+[21605.954343]  (3)[57:dlpt_notify_thr][PBM] [ma_to_mw] 4195(mV) * 5796(mA) = 24314(mW)
+[21605.954373]  (3)[57:dlpt_notify_thr][DLPT_final] 5796,0,89,89,1,7000
+[21605.960931]  (1)[216:hps_main][Power/PPM] (0x430)(13550)(0)[LL_ONLY]->[4LL_L]: (15)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21605.960952]  (1)[216:hps_main][hps_task_wakeup_nolock]hps task wake up fail 0
+[21605.962120] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21605.962165] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21605.962211] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21605.962417] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21605.965045]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21605.965190]  (4)[216:hps_main][CPUHVFS] (0) [049d0baa] cluster1 on, pause = 0x0, swctrl = 0x2df0 (0xfd100)
+[21605.965943] -(5)[0:swapper/5]CPU5: Booted secondary processor
+[21605.965954] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+[21605.965966] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+[21605.966064] -(5)[0:swapper/5]CPU5: update cpu_capacity 426
+[21605.967067]  (5)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21605.968298]  (0)[216:hps_main]CPU3: shutdown
+[21605.968340]  (0)[216:hps_main]psci: CPU3 killed.
+[21605.969207]  (0)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21605.969936]  (0)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21605.971373]  (1)[216:hps_main]CPU2: shutdown
+[21605.971407]  (1)[216:hps_main]psci: CPU2 killed.
+[21605.972395]  (1)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21605.973063]  (1)[216:hps_main][HPS] (0x70E1)<4>(0)(0) action end (363)(608)(0) (2)(0)(0) (4)(4)(2)(1)(0)(0) (0)(363)(0)(0) <2>(2)(0)
+[21606.009248]  (4)[224:bat_routine_thr]battery_meter_get_charger_voltage:    the charger vol is : 4891 
+[21606.012790]  (1)[224:bat_routine_thr]bq27532_battery_read_temperature: temp = 3071
+[21606.012810] -(1)[224:bat_routine_thr]mtk_rtc_hal_common: rtc_spare_reg[0] = {16412, 127, 8}
+[21606.012822]  (1)[224:bat_routine_thr]bq27532_battery_read_temperature: temp / 10 - 273 = 34 init_temp=24
+[21606.012828]  (1)[224:bat_routine_thr]bq27532_battery_read_temperature: return temp= 34
+[21606.013419] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21606.013438] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21606.013456] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21606.013572] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21606.015473]  (5)[224:bat_routine_thr]bq27532_battery_read_soc: soc=89
+[21606.016830]  (2)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21606.016921] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21606.016940] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21606.016963] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21606.017079]  (1)[224:bat_routine_thr]
+[21606.017079] 
+[21606.017079] 
+[21606.017079] bq27532_charger_voltage: the bus voltage = 4901
+[21606.017079] 
+[21606.017079] 
+[21606.017094] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21606.018217]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21606.018235]  (0)[216:hps_main][CPUHVFS] (0) [049d1278] cluster2 on, pause = 0x0, swctrl = 0x28f0 (0xbc522)
+[21606.018884]  (5)[224:bat_routine_thr]bq27532_battery_read_fullchargecapacity:**************fullchargecapacity 2500, capacity 2513
+[21606.018897]  (5)[224:bat_routine_thr][kernel]AvgVbat 4198,bat_vol 0, AvgI 65500, I 0, VChr 4901, AvgT 34, T 25, ZCV 0, CHR_Type 1, SOC  89:-100: 89
+[21606.019014] -(9)[0:swapper/9]CPU9: Booted secondary processor
+[21606.019022] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+[21606.019033] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+[21606.019120] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+[21606.019489]  (5)[224:bat_routine_thr]******************usb_board_temperature = 32
+[21606.019499] [BATTERY] Battery Temperature Under Temperature 45oC!!
+
+[21606.019785]  (9)[216:hps_main][HPS] (0x70E1)<2>(2)(0) action end (401)(664)(0) (0)(2)(0) (4)(4)(2)(1)(0)(0) (0)(0)(664)(1) <3>(2)(2)
+[21606.019835]  (9)[223:bat_update_thre]truesoc = 89 
+[21606.021163]  (4)[224:bat_routine_thr]battery_meter_get_charger_voltage:    the charger vol is : 4891 
+[21606.021182]  (4)[224:bat_routine_thr][PE+20]charger_check, SOC=89,0,95 pe20_check_chr_type=1, charger_type=1, is_pe20_connect=0 chr_vol:4891 1,0,1,1
+[21606.021189]  (4)[224:bat_routine_thr][PE+]Stop battery_pump_express_charger_check, UI_SOC2=89, ta_check_chr_type = 1, charger_type = 1
+[21606.021196] [BATTERY] Pre-CC mode charge, timer=2340 on 2340 !!
+
+[21606.022459]  (0)[223:bat_update_thre]bq27532_battery_read_soc: soc=89
+[21606.025860]  (5)[331:healthd]healthd: Unknown battery status '3'
+[21606.027871]  (0)[331:healthd]healthd: battery l=89 v=4198 t=34.0 h=2 st=2 c=65 chg=u
+[21606.027996]  (0)[331:healthd]healthd: send_already = 0
+[21606.037827]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x0]=0x8
+[21606.038294]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x1]=0x6
+[21606.038745]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x2]=0xD
+[21606.039198]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x3]=0x1A
+[21606.039659]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x4]=0x87
+[21606.040106]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x5]=0x71
+[21606.040563]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x6]=0x82
+[21606.041026]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x7]=0x8D
+[21606.041488]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x8]=0x53
+[21606.041940]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x9]=0x44
+[21606.042420]  (4)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xA]=0x73
+[21606.042914]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xB]=0x36
+[21606.043385]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xC]=0x0
+[21606.043862]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xD]=0x90
+[21606.044326]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xE]=0x0
+[21606.044784]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xF]=0x0
+[21606.045240]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x10]=0x0
+[21606.045729]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x11]=0x99
+[21606.046216]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x12]=0x0
+[21606.046677]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x13]=0x48
+[21606.047158]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x14]=0x5
+[21606.047309]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x0]=0x88
+[21606.047443]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x1]=0x6
+[21606.047584]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x2]=0x4D
+[21606.047751]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x3]=0xA
+[21606.047910]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x4]=0x7
+[21606.048047]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x5]=0x71
+[21606.048181]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x6]=0x82
+[21606.048321]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x7]=0x8D
+[21606.048453]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x8]=0x53
+[21606.048587]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x9]=0x44
+[21606.048725]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xA]=0x73
+[21606.048859]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xB]=0x26
+[21606.049001]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xC]=0x0
+[21606.049161]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xD]=0x90
+[21606.049315]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xE]=0x5E
+[21606.049459]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xF]=0x5E
+[21606.049591]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x10]=0x3E
+[21606.049729]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x11]=0x96
+[21606.049861]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x12]=0x0
+[21606.049992]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x13]=0x8
+[21606.050123]  (5)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x14]=0x5
+[21606.051773]  (1)[224:bat_routine_thr]battery_meter_get_charger_voltage:    the charger vol is : 4901 
+[21606.051804]  (1)[224:bat_routine_thr]select_charging_current start....
+[21606.052865]  (0)[224:bat_routine_thr][BATTERY] select_charging_curret, batt_temp_status 8, batt_temp_pre_status 8!
+[21606.052879]  (0)[224:bat_routine_thr][BATTERY] Default CC mode charging : 50000, input current = 50000
+[21606.055060]  (1)[224:bat_routine_thr]charging_enable_major++enable= 1+++++++++
+[21606.057580]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x0]=0x8
+[21606.058051]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x1]=0x6
+[21606.058497]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x2]=0xD
+[21606.058940]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x3]=0x1A
+[21606.059392]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x4]=0x87
+[21606.059841]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x5]=0x71
+[21606.060152] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21606.060168] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21606.060188] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21606.060301]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x6]=0x82
+[21606.060341] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21606.060939]  (4)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x7]=0x8D
+[21606.061439]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x8]=0x53
+[21606.061904]  (1)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x9]=0x44
+[21606.061941]  (3)[216:hps_main]MobiCore mcd: Cpu 9 is going to die
+[21606.062366]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xA]=0x73
+[21606.063162]  (4)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xB]=0x36
+[21606.063205]  (3)[216:hps_main]CPU9: shutdown
+[21606.063228]  (3)[216:hps_main]psci: CPU9 killed.
+[21606.063647]  (4)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xC]=0x0
+[21606.064117]  (3)[216:hps_main]MobiCore mcd: Cpu 9 is dead
+[21606.064130]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xD]=0x90
+[21606.064586]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xE]=0x0
+[21606.064922]  (3)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21606.065011]  (3)[216:hps_main][CPUHVFS] (0) [049d1875] cluster2 off, pause = 0x0, swctrl = 0x58f0 (0xbc588)
+[21606.065042]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0xF]=0x0
+[21606.065517]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x10]=0x0
+[21606.066089]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x11]=0x99
+[21606.066170]  (4)[216:hps_main]CPU8: shutdown
+[21606.066514]  (0)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21606.066550]  (0)[216:hps_main]psci: CPU8 killed.
+[21606.066558]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x12]=0x0
+[21606.067010]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x13]=0x48
+[21606.067477]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register] Reg[0x14]=0x5
+[21606.067639]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x0]=0x88
+[21606.067796]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x1]=0x6
+[21606.067843]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21606.067943]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x2]=0x4D
+[21606.068081]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x3]=0xA
+[21606.068214]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x4]=0x7
+[21606.068349]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x5]=0x71
+[21606.068482]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x6]=0x82
+[21606.068583]  (4)[216:hps_main][HPS] (0x7F03)<3>(2)(2) action end (526)(613)(48) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(526)(0)(0) <4>(2)(0)
+[21606.068616]  (2)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x7]=0x8D
+[21606.068756]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x8]=0x53
+[21606.068893]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x9]=0x44
+[21606.069027]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xA]=0x73
+[21606.069163]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xB]=0x26
+[21606.069299]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xC]=0x0
+[21606.069452]  (4)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xD]=0x90
+[21606.069635]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xE]=0x5E
+[21606.069776]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0xF]=0x5E
+[21606.069923]  (0)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x10]=0x3E
+[21606.070066]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x11]=0x96
+[21606.070201]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x12]=0x0
+[21606.070338]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x13]=0x8
+[21606.070473]  (3)[224:bat_routine_thr][bq2589x] [bq2589x_dump_register1] Reg[0x14]=0x5
+[21606.108844]  (0)[216:hps_main]MobiCore mcd: Cpu 5 is going to die
+[21606.110093]  (4)[216:hps_main]CPU5: shutdown
+[21606.110126]  (4)[216:hps_main]psci: CPU5 killed.
+[21606.111024]  (4)[216:hps_main]MobiCore mcd: Cpu 5 is dead
+[21606.111744]  (4)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21606.111768]  (4)[216:hps_main][CPUHVFS] (0) [049d1e71] cluster1 off, pause = 0x0, swctrl = 0x5df0 (0xfd1dd)
+[21606.114302]  (3)[216:hps_main]CPU4: shutdown
+[21606.114470]  (3)[216:hps_main]psci: CPU4 killed.
+[21606.115457]  (3)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21606.116237]  (3)[216:hps_main][HPS] (0x7F03)<4>(2)(0) action end (411)(458)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(411)(0)(0) <4>(0)(0)
+[21606.228599]  (0)[2011:Binder_D][Power/PPM] (0x470)(13419)(0)[4LL_L]: (0)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21606.228805]  (0)[2011:Binder_D][Power/PPM] (0x470)(13419)(0)[4LL_L]: (0)(0)(1)(4) (2)(2)(0)(4) (15)(7)(0)(2) 
+[21606.229384]  (0)[2011:Binder_D][Power/PPM] (0x470)(13401)(1)[4LL_L]->[4L_LL]: (0)(0)(0)(4) (2)(2)(4)(4) (15)(7)(0)(2) 
+[21606.229527]  (0)[2011:Binder_D][Power/PPM] (0x470)(13401)(0)[4L_LL]->[4LL_L]: (0)(0)(2)(4) (2)(2)(4)(4) (15)(7)(0)(2) 
+[21606.229539]  (0)[2011:Binder_D][hps_task_wakeup_nolock]hps task wake up fail 0
+[21606.230618] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21606.230669] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21606.230717] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21606.230929] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21606.233362]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21606.233407]  (4)[216:hps_main][CPUHVFS] (0) [049d2e02] cluster1 on, pause = 0x0, swctrl = 0x2df0 (0xfd100)
+[21606.234064]  (4)[216:hps_main][HPS] [Info]Condition break!!
+[21606.234081]  (4)[216:hps_main][HPS] (0x7F03)<4>(0)(0) action break!! (386)(665)(0) (0)(0)(0) (4)(4)(2)(0)(4)(0)-->(4)(4)(2)(2)(4)(0) (0)(386)(0)(0) <1>(4)(0)
+[21606.274453] -(5)[0:swapper/5]CPU5: Booted secondary processor
+[21606.274476] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+[21606.274493] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+[21606.274604] -(5)[0:swapper/5]CPU5: update cpu_capacity 426
+[21606.275848] -(6)[0:swapper/6]CPU6: Booted secondary processor
+[21606.275868] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+[21606.275885] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+[21606.275995] -(6)[0:swapper/6]CPU6: update cpu_capacity 426
+[21606.277324] -(7)[0:swapper/7]CPU7: Booted secondary processor
+[21606.277344] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+[21606.277363] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+[21606.277493] -(7)[0:swapper/7]CPU7: update cpu_capacity 426
+[21606.278909]  (7)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21606.280260]  (4)[216:hps_main]CPU3: shutdown
+[21606.280294]  (4)[216:hps_main]psci: CPU3 killed.
+[21606.281336]  (4)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21606.282187]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21606.283529]  (1)[216:hps_main]CPU2: shutdown
+[21606.283565]  (1)[216:hps_main]psci: CPU2 killed.
+[21606.284498]  (1)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21606.285215]  (1)[216:hps_main][HPS] (0x7F03)<4>(1)(0) action end (478)(846)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(478)(0)(0) <2>(4)(0)
+[21606.446977]  (7)[315:logd.writer]logd:diff time 3899904539, run time  214071020, count 5000,step 1 11288,2 6181,3 5444,4 19899. filter count 0.
+[21606.648866]  (5)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21606.648958] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21606.648978] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21606.649006] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21606.649148] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21606.650288]  (5)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21606.650304]  (5)[216:hps_main][CPUHVFS] (0) [049d6360] cluster2 on, pause = 0x0, swctrl = 0x28f0 (0xbc522)
+[21606.650660]  (5)[216:hps_main][HPS] (0x70E1)<2>(4)(0) action end (574)(800)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(574)(0)(0) <2>(4)(1)
+[21606.685209] AEE_MONITOR_SET[status]: 0x1
+[21606.688617]  (7)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21606.688645]  (7)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21606.691075] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21606.691098] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21606.691115] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21606.691228] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21606.692695]  (1)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21606.692786]  (1)[216:hps_main][CPUHVFS] (0) [049d68d0] cluster2 off, pause = 0x0, swctrl = 0x57f0 (0x9c077)
+[21606.694522]  (0)[216:hps_main]CPU8: shutdown
+[21606.694843]  (5)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21606.694879]  (5)[216:hps_main]psci: CPU8 killed.
+[21606.696227]  (7)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21606.697053]  (7)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (552)(585)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(552)(0)(0) <3>(4)(0)
+[21606.701012]  (2)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21606.701039]  (2)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21606.850475]  (4)[10723:FinalizerDaemon]binder: 10716:10723 refcount change on invalid ref 14
+[21607.261343]  (7)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21607.261424] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21607.261443] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21607.261466] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21607.261592] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21607.262849]  (2)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21607.262869]  (2)[216:hps_main][CPUHVFS] (0) [049db1c9] cluster2 on, pause = 0x0, swctrl = 0x27f0 (0x9c022)
+[21607.263245]  (2)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21607.264603]  (4)[216:hps_main]CPU2: shutdown
+[21607.264641]  (4)[216:hps_main]psci: CPU2 killed.
+[21607.265572]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21607.266309]  (4)[216:hps_main][HPS] (0x70E1)<3>(4)(0) action end (658)(964)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(658)(0)(0) <2>(4)(1)
+[21607.306741] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21607.306766] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21607.306788] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21607.306920] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21607.308321]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21607.308437]  (4)[216:hps_main][CPUHVFS] (0) [049db79e] cluster2 off, pause = 0x0, swctrl = 0x58f0 (0xbc588)
+[21607.309912]  (4)[216:hps_main]CPU8: shutdown
+[21607.310245]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21607.310302]  (4)[216:hps_main]psci: CPU8 killed.
+[21607.311631]  (6)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21607.312381]  (6)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (638)(896)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(638)(0)(0) <3>(4)(0)
+[21607.341444]  (1)[170:krtatm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(4)(4) (15)(7)(0)(2) 
+[21607.354940]  (1)[10742:pool-1-thread-1]binder: 10716:10742 refcount change on invalid ref 14
+[21607.354963]  (1)[10742:pool-1-thread-1]binder: 10716:10742 refcount change on invalid ref 14
+[21607.354976]  (1)[10742:pool-1-thread-1]binder: transaction release 6052464 bad handle 14
+[21607.676527]  (5)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21607.676625] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21607.676648] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21607.676671] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21607.676826] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21607.678192]  (5)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21607.678215]  (5)[216:hps_main][CPUHVFS] (0) [049de6f3] cluster2 on, pause = 0x0, swctrl = 0x28f0 (0xbc522)
+[21607.679326]  (5)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21607.679457]  (0)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21607.681325]  (5)[216:hps_main]CPU2: shutdown
+[21607.681370]  (5)[216:hps_main]psci: CPU2 killed.
+[21607.682507]  (5)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21607.683298]  (5)[216:hps_main][HPS] (0x70E1)<3>(4)(0) action end (535)(525)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(535)(0)(0) <2>(4)(1)
+[21607.685493] AEE_MONITOR_SET[status]: 0x1
+[21607.725558] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21607.725588] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21607.725614] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21607.725766] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21607.727332]  (6)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21607.727453]  (6)[216:hps_main][CPUHVFS] (0) [049ded40] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21607.730387]  (6)[216:hps_main]CPU8: shutdown
+[21607.730737]  (7)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21607.730779]  (7)[216:hps_main]psci: CPU8 killed.
+[21607.732169]  (5)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21607.733037]  (5)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (554)(581)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(554)(0)(0) <3>(4)(0)
+[21607.773248]  (5)[216:hps_main][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(4)(4) (15)(7)(0)(2) 
+[21607.857701]  (1)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21607.857761] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21607.857780] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21607.857804] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21607.857932] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21607.859273]  (8)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21607.859291]  (8)[216:hps_main][CPUHVFS] (0) [049dfe21] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21607.859852]  (8)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21607.860044]  (1)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21607.862253]  (0)[216:hps_main]CPU2: shutdown
+[21607.862289]  (0)[216:hps_main]psci: CPU2 killed.
+[21607.863302]  (0)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21607.865552]  (0)[216:hps_main][HPS] (0x70E1)<3>(4)(0) action end (603)(769)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(603)(0)(0) <2>(4)(1)
+[21607.906025] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21607.906051] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21607.906075] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21607.906221] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21607.908022]  (2)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21607.908153]  (2)[216:hps_main][CPUHVFS] (0) [049e0462] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21607.911136]  (2)[216:hps_main]CPU8: shutdown
+[21607.911500]  (1)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21607.911542]  (1)[216:hps_main]psci: CPU8 killed.
+[21607.912979]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21607.913848]  (4)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (633)(948)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(633)(0)(0) <3>(4)(0)
+[21607.954104]  (7)[216:hps_main][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(4)(4) (15)(7)(0)(2) 
+[21607.955722] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21607.955748] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21607.955773] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21607.955920] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21607.957735]  (3)[216:hps_main][HPS] (0x7F00)<3>(4)(0) action end (692)(1329)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(0)(1329)(1) <4>(4)(0)
+[21608.038239]  (6)[216:hps_main]MobiCore mcd: Cpu 3 is going to die
+[21608.040178]  (2)[216:hps_main]CPU3: shutdown
+[21608.040217]  (2)[216:hps_main]psci: CPU3 killed.
+[21608.041316]  (2)[216:hps_main]MobiCore mcd: Cpu 3 is dead
+[21608.042174]  (2)[216:hps_main][HPS] (0x7F03)<4>(4)(0) action end (568)(593)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(568)(0)(0) <3>(4)(0)
+[21608.165123]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21608.165216] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21608.165236] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21608.165258] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21608.165391] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21608.166879]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21608.166905]  (4)[216:hps_main][CPUHVFS] (0) [049e2581] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21608.167549]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21608.167647]  (5)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21608.169527]  (4)[216:hps_main]CPU2: shutdown
+[21608.169576]  (4)[216:hps_main]psci: CPU2 killed.
+[21608.170816]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21608.171657]  (4)[216:hps_main][HPS] (0x70E1)<3>(4)(0) action end (591)(621)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(591)(0)(0) <2>(4)(1)
+[21608.212116] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21608.212143] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21608.212167] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21608.212312] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21608.214079]  (2)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21608.214209]  (2)[216:hps_main][CPUHVFS] (0) [049e2b8f] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21608.216693]  (5)[216:hps_main]CPU8: shutdown
+[21608.217043]  (5)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21608.217084]  (5)[216:hps_main]psci: CPU8 killed.
+[21608.218388]  (5)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21608.219216]  (5)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (590)(653)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(590)(0)(0) <3>(4)(0)
+[21608.259438]  (6)[216:hps_main][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(4)(4) (15)(7)(0)(2) 
+[21608.281755] -(4)[0:swapper/4]Power/swap DP: No enter --- SODI3: No enter --- SODI: No enter --- 
+[21608.301538]  (6)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21608.303302]  (6)[216:hps_main]CPU2: shutdown
+[21608.303341]  (6)[216:hps_main]psci: CPU2 killed.
+[21608.304227]  (6)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21608.305025]  (6)[216:hps_main][HPS] (0x7F03)<3>(4)(0) action end (431)(447)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(431)(0)(0) <2>(4)(0)
+[21608.347618]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21608.347713] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21608.347735] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21608.347759] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21608.347888] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21608.349190]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21608.349208]  (4)[216:hps_main][CPUHVFS] (0) [049e3cd6] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21608.349908]  (4)[216:hps_main][HPS] (0x70E1)<2>(4)(0) action end (407)(458)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(407)(0)(0) <2>(4)(1)
+[21608.350076]  (4)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21608.391988]  (5)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21608.392090]  (5)[216:hps_main][CPUHVFS] (0) [049e4254] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21608.394203]  (0)[216:hps_main]CPU8: shutdown
+[21608.394565]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21608.394603]  (4)[216:hps_main]psci: CPU8 killed.
+[21608.395819]  (7)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21608.396384]  (0)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (8)(8)(2)(4) (8)(8)(4)(4) (15)(7)(0)(2) 
+[21608.396657]  (7)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (474)(518)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(474)(0)(0) <2>(4)(0)
+[21608.519482]  (7)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21608.519574] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21608.519594] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21608.519617] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21608.519745] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21608.521283]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21608.521307]  (0)[216:hps_main][CPUHVFS] (0) [049e52de] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21608.522143]  (0)[216:hps_main][HPS] (0x70E1)<2>(4)(0) action end (469)(543)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(469)(0)(0) <2>(4)(1)
+[21608.522311]  (6)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21608.529709]  (4)[1:init]Reboot Process(system_server:1023).
+[21608.534562]  (4)[1284:PhotonicModulat][LCM:SAMSUNG D53G]lcm_setbacklight_cmdq, kernel backlight: level = 0
+[21608.541942]  (0)[1082:PowerManagerSer][lsm6ds3]st_lsm6ds3_cleanup_fifo enter
+[21608.542544]  (4)[1082:PowerManagerSer][lsm6ds3]st_lsm6ds3_cleanup_fifo succeed
+[21608.550270]  (0)[335:surfaceflinger][OD] ddp_bypass_od
+[21608.564367] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21608.564377] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21608.564396] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21608.564539] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21608.565557]  (4)[566:AALServiceMain][PWM] disp_pwm_set_backlight_cmdq(id = 0x1, level_1024 = 0), old = -1
+[21608.565772] -(0)[123:display_check_a][CMDQ]EXEC: Set HW thread(0) pc from 0xdae39118(end:0xdae39118) to 0x00000000f2700000, oriNextCookie:2, oriTaskCount:1
+[21608.566511]  (0)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21608.566854]  (0)[216:hps_main][CPUHVFS] (0) [049e58b2] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21608.569083]  (0)[216:hps_main]CPU8: shutdown
+[21608.569432]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21608.569463]  (4)[216:hps_main]psci: CPU8 killed.
+[21608.570837]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21608.571138]  (2)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(4)(4) (15)(7)(0)(2) 
+[21608.571783]  (4)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (660)(1309)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(660)(0)(0) <3>(4)(0)
+[21608.590870]  (2)[335:surfaceflinger][LCM:SAMSUNG D53G]lcm_suspend
+[21608.652269]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is going to die
+[21608.653821]  (4)[216:hps_main]CPU2: shutdown
+[21608.653864]  (4)[216:hps_main]psci: CPU2 killed.
+[21608.654660]  (4)[216:hps_main]MobiCore mcd: Cpu 2 is dead
+[21608.656409]  (4)[216:hps_main][HPS] (0x7F03)<3>(4)(0) action end (452)(464)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(452)(0)(0) <2>(4)(0)
+[21608.656460]  (6)[1:init]SysRq : Emergency Remount R/O
+[21608.659530]  (6)[2020:kworker/6:0]EXT4-fs (mmcblk0p8): re-mounted. Opts: (null)
+[21608.675217]  (6)[2020:kworker/6:0]EXT4-fs (mmcblk0p9): re-mounted. Opts: (null)
+[21608.677884]  (6)[2020:kworker/6:0]EXT4-fs (mmcblk0p12): re-mounted. Opts: (null)
+[21608.680482]  (6)[2020:kworker/6:0]EXT4-fs (mmcblk0p11): re-mounted. Opts: (null)
+[21608.685905]  (6)[2020:kworker/6:0]EXT4-fs (mmcblk0p31): re-mounted. Opts: (null)
+[21608.688648]  (1)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21608.688664]  (1)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21608.698553]  (4)[3211:POSIX timer 81][gf] gf_ioctl, 711, enter
+[21608.698566]  (4)[3211:POSIX timer 81][gf] gf_ioctl, 952, exit
+[21608.698899]  (1)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21608.698993] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21608.699003] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21608.699022] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21608.699149] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21608.700654]  (1)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21608.700669]  (1)[216:hps_main][CPUHVFS] (0) [049e69d3] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21608.701687]  (1)[216:hps_main][HPS] (0x70E1)<2>(4)(0) action end (494)(602)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(494)(0)(0) <2>(4)(1)
+[21608.701697]  (1)[216:hps_main][HPS] (0x70E1)<2>(4)(0) HRT_BT_DBG (494)(602)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(494)(0)(0) <2>(4)(1)
+[21608.701924]  (1)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21608.743768]  (5)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21608.743857]  (5)[216:hps_main][CPUHVFS] (0) [049e6f5a] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21608.746440]  (4)[216:hps_main]CPU8: shutdown
+[21608.746788]  (5)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21608.746818]  (5)[216:hps_main]psci: CPU8 killed.
+[21608.748208]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21608.749033]  (4)[216:hps_main][HPS] (0x7F03)<2>(4)(1) action end (494)(595)(0) (0)(0)(0) (4)(4)(2)(2)(4)(0) (0)(494)(0)(0) <2>(4)(0)
+[21608.789221]  (4)[216:hps_main][Power/PPM] (0x478)(1500)(0)[4LL_L]: (8)(8)(2)(4) (8)(8)(4)(4) (15)(7)(0)(2) 
+[21608.833292]  (0)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21608.833376] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21608.833386] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21608.833404] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21608.833520] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21608.834931]  (0)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21608.834944]  (0)[216:hps_main][CPUHVFS] (0) [049e7b03] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21608.835520]  (0)[216:hps_main][HPS] (0x70E1)<2>(4)(0) action end (484)(587)(0) (0)(1)(0) (4)(4)(2)(2)(4)(0) (0)(484)(0)(0) <2>(4)(1)
+[21608.835684]  (4)[96:pbm][Power/PPM] (0x478)(1500)(0)[4LL_L]: (11)(11)(2)(4) (11)(11)(4)(4) (15)(15)(0)(2) 
+[21608.859434]  (5)[1272:PerfServiceMana][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(2)(4) (9)(9)(0)(4) (15)(15)(0)(2) 
+[21608.859622]  (5)[1272:PerfServiceMana][Power/PPM] (0x478)(1500)(0)[4LL_L]: (9)(9)(1)(4) (9)(9)(0)(4) (15)(15)(0)(2) 
+[21608.859628]  (5)[1272:PerfServiceMana][hps_task_wakeup_nolock]hps task wake up fail 0
+[21608.859768] -(2)[0:swapper/2]CPU2: Booted secondary processor
+[21608.859779] -(2)[0:swapper/2]Detected VIPT I-cache on CPU2
+[21608.859798] -(2)[0:swapper/2]CPU2: found redistributor 2 @ffffff80000c0000
+[21608.859953]  (5)[1272:PerfServiceMana][Power/PPM] (0x478)(1500)(0)[4LL_L]: (15)(9)(1)(4) (9)(9)(0)(4) (15)(15)(0)(2) 
+[21608.859959] -(2)[0:swapper/2]CPU2: update cpu_capacity 304
+[21608.860113]  (5)[1272:PerfServiceMana][Power/PPM] (0x438)(1500)(0)[4LL_L]: (15)(11)(1)(4) (15)(11)(0)(4) (15)(15)(0)(2) 
+[21608.861394]  (4)[216:hps_main]MobiCore mcd: Cpu 7 is going to die
+[21608.867652]  (4)[216:hps_main]CPU7: shutdown
+[21608.867676]  (4)[216:hps_main]psci: CPU7 killed.
+[21608.868933]  (4)[216:hps_main]MobiCore mcd: Cpu 7 is dead
+[21608.869785]  (4)[216:hps_main]MobiCore mcd: Cpu 6 is going to die
+[21608.871487]  (4)[216:hps_main]CPU6: shutdown
+[21608.871526]  (4)[216:hps_main]psci: CPU6 killed.
+[21608.872947]  (4)[216:hps_main]MobiCore mcd: Cpu 6 is dead
+[21608.873700]  (4)[216:hps_main][HPS] (0x70E1)<2>(4)(1) action end (537)(649)(0) (0)(1)(0) (4)(4)(2)(2)(0)(0) (0)(537)(0)(0) <3>(2)(1)
+[21608.914153] -(3)[0:swapper/3]CPU3: Booted secondary processor
+[21608.914164] -(3)[0:swapper/3]Detected VIPT I-cache on CPU3
+[21608.914182] -(3)[0:swapper/3]CPU3: found redistributor 3 @ffffff80000e0000
+[21608.914321] -(3)[0:swapper/3]CPU3: update cpu_capacity 304
+[21608.915732]  (4)[216:hps_main]MobiCore mcd: Cpu 5 is going to die
+[21608.917360]  (4)[216:hps_main]CPU5: shutdown
+[21608.917384]  (4)[216:hps_main]psci: CPU5 killed.
+[21608.918501]  (4)[216:hps_main]MobiCore mcd: Cpu 5 is dead
+[21608.919312]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21608.919398]  (4)[216:hps_main][CPUHVFS] (0) [049e85d3] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21608.921584]  (4)[216:hps_main]CPU8: shutdown
+[21608.921881]  (4)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21608.921905]  (4)[216:hps_main]psci: CPU8 killed.
+[21608.923163]  (4)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21608.923425]  (3)[96:pbm][Power/PPM] (0x438)(1500)(0)[4LL_L]: (15)(6)(1)(4) (15)(6)(0)(4) (15)(7)(0)(2) 
+[21608.923873]  (4)[216:hps_main][HPS] (0x7F03)<3>(2)(1) action end (515)(726)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(515)(0)(0) <4>(1)(0)
+[21608.964088]  (4)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21608.964118]  (4)[216:hps_main][CPUHVFS] (0) [049e8b8c] cluster1 off, pause = 0x0, swctrl = 0x59f0 (0xcc799)
+[21608.972484]  (3)[216:hps_main]CPU4: shutdown
+[21608.972678]  (3)[216:hps_main]psci: CPU4 killed.
+[21608.973934]  (3)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21608.974183]  (2)[96:pbm][Power/PPM] (0x438)(1500)(0)[4LL_L]: (15)(0)(1)(4) (15)(2)(0)(4) (15)(7)(0)(2) 
+[21608.974691]  (3)[216:hps_main][HPS] (0x7F03)<4>(1)(0) action end (441)(635)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(441)(0)(0) <4>(0)(0)
+[21609.016107]  (1)[2020:kworker/6:0]EXT4-fs (mmcblk0p32): re-mounted. Opts: (null)
+[21609.020599]  (0)[335:surfaceflinger][LCM:SAMSUNG D53G]lcm_power_switch enable = 0 
+[21609.071306]  (3)[335:surfaceflinger][LCM:SAMSUNG D53G]lcm_suspend_power
+[21609.073255]  (1)[1:init][PE+] Resetting TA adapter before shutdown
+[21609.073258]  (1)[1:init]******** battery driver shutdown!! ********
+[21609.079258]  (3)[335:surfaceflinger][VcoreFS]SCREEN OFF
+[21609.079271]  (3)[335:surfaceflinger]sensor-ps 1-001e: ps not opened when screen off
+[21609.079278]  (3)[335:surfaceflinger]sensor-als 1-0044: als not opened when screen off
+[21609.079283]  (3)[335:surfaceflinger][Power/PPM] @ppm_lcmoff_switch: onoff = 0
+[21609.079301]  (3)[335:surfaceflinger]charging_set_hiz_sub++++++en = 0
+[21609.080220]  (3)[335:surfaceflinger][WMT-DEV][W]wmt_fb_notifier_callback:@@@@@@@@@@wmt enter early POWERDOWN @@@@@@@@@@@@@@
+[21609.080280]  (3)[335:surfaceflinger]kalBoostCpu, core_num:0, max_cpu:10
+[21609.080285]  (3)[335:surfaceflinger][Power/PPM] sys boost by WIFI: req_core = 0, target_boost_core = 0
+[21609.080380]  (3)[335:surfaceflinger][Power/PPM] sys boost by WIFI: req_freq = 0, target_boost_freq = 0
+[21609.080410]  (3)[335:surfaceflinger][gf] [gf_fb_notifier_callback] : enter, blank=0x4
+[21609.080413]  (3)[335:surfaceflinger][gf] [gf_fb_notifier_callback] : lcd off notify
+[21609.080425]  (3)[335:surfaceflinger][lsm6ds3]fb callback, disable lsm6ds3 irq
+[21609.096719] -(4)[0:swapper/4]CPU4: Booted secondary processor
+[21609.096767] -(4)[0:swapper/4]Detected VIPT I-cache on CPU4
+[21609.096814] -(4)[0:swapper/4]CPU4: found redistributor 100 @ffffff8000100000
+[21609.097023] -(4)[0:swapper/4]CPU4: update cpu_capacity 426
+[21609.099744]  (4)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_L freq = 325000
+[21609.099790]  (4)[216:hps_main][CPUHVFS] (0) [049e9cea] cluster1 on, pause = 0x0, swctrl = 0x29f0 (0xfd100)
+[21609.100561]  (3)[356:mtk_wmtd][WMT-CORE][W]wmt_core_dump_func_state:[AF FUNC OFF]status(b:0 f:0 g:0 w:2 lpbk:0 coredump:0 wmt:2 stp:0)
+[21609.100675] -(5)[0:swapper/5]CPU5: Booted secondary processor
+[21609.100685] -(5)[0:swapper/5]Detected VIPT I-cache on CPU5
+[21609.100696] -(5)[0:swapper/5]CPU5: found redistributor 101 @ffffff8000120000
+[21609.100791] -(5)[0:swapper/5]CPU5: update cpu_capacity 426
+[21609.100939]  (4)[96:pbm][Power/PPM] (0x4b8)(1500)(0)[4LL_L]: (12)(8)(1)(4) (13)(8)(0)(4) (14)(7)(0)(2) 
+[21609.101012]  (3)[242:kworker/3:1][WMT-EXP][W]mtk_wcn_wmt_func_ctrl:OPID(4) type(9) ok
+[21609.102902] -(6)[0:swapper/6]CPU6: Booted secondary processor
+[21609.102916] -(6)[0:swapper/6]Detected VIPT I-cache on CPU6
+[21609.102933] -(6)[0:swapper/6]CPU6: found redistributor 102 @ffffff8000140000
+[21609.103047] -(6)[0:swapper/6]CPU6: update cpu_capacity 426
+[21609.104629] -(7)[0:swapper/7]CPU7: Booted secondary processor
+[21609.104650] -(7)[0:swapper/7]Detected VIPT I-cache on CPU7
+[21609.104670] -(7)[0:swapper/7]CPU7: found redistributor 103 @ffffff8000160000
+[21609.104794] -(7)[0:swapper/7]CPU7: update cpu_capacity 426
+[21609.108604]  (1)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(1)
+[21609.108697] -(8)[0:swapper/8]CPU8: Booted secondary processor
+[21609.108718] -(8)[0:swapper/8]Detected PIPT I-cache on CPU8
+[21609.108742] -(8)[0:swapper/8]CPU8: found redistributor 200 @ffffff8000180000
+[21609.108878] -(8)[0:swapper/8]CPU8: update cpu_capacity 1024
+[21609.110233]  (7)[216:hps_main][Power/cpufreq] MT_CPU_DVFS_B freq = 845000
+[21609.110254]  (7)[216:hps_main][CPUHVFS] (0) [049e9e41] cluster2 on, pause = 0x0, swctrl = 0x20f0 (0x7b222)
+[21609.110928]  (1)[96:pbm][Power/PPM] (0x4b8)(1500)(0)[4LL_L]: (12)(11)(1)(4) (13)(11)(0)(4) (15)(15)(0)(2) 
+[21609.110938] -(9)[0:swapper/9]CPU9: Booted secondary processor
+[21609.110944] -(9)[0:swapper/9]Detected PIPT I-cache on CPU9
+[21609.110952] -(9)[0:swapper/9]CPU9: found redistributor 201 @ffffff80001a0000
+[21609.111038] -(9)[0:swapper/9]CPU9: update cpu_capacity 1024
+[21609.113092]  (9)[216:hps_main][HPS] (0x70E1)<4>(0)(0) action end (400)(1116)(0) (1)(0)(0) (4)(4)(2)(1)(0)(0) (0)(0)(1116)(1) <4>(4)(2)
+[21609.120253]  (6)[2020:kworker/6:0]Emergency Remount complete
+[21609.130710]  (4)[356:mtk_wmtd][WMT-CTRL][W]wmt_ctrl_rx:wmt_ctrl_rx be signaled, but no rx data(200)
+[21609.153468]  (5)[216:hps_main]MobiCore mcd: Cpu 9 is going to die
+[21609.155516]  (5)[216:hps_main]CPU9: shutdown
+[21609.155577]  (5)[216:hps_main]psci: CPU9 killed.
+[21609.156433]  (5)[216:hps_main]MobiCore mcd: Cpu 9 is dead
+[21609.157309]  (5)[216:hps_main]MobiCore mcd: Cpu 8 is going to die
+[21609.157469]  (5)[216:hps_main][CPUHVFS] (0) [049ea44c] cluster2 off, pause = 0x0, swctrl = 0x50f0 (0x7b200)
+[21609.159700]  (5)[216:hps_main]CPU8: shutdown
+[21609.160063]  (1)[216:hps_main][Power/dcm] dcm_mcusys_mp2_sync_dcm(0)
+[21609.160111]  (1)[216:hps_main]psci: CPU8 killed.
+[21609.161700]  (0)[216:hps_main]MobiCore mcd: Cpu 8 is dead
+[21609.162032]  (5)[96:pbm][Power/PPM] (0x4b8)(1500)(0)[4LL_L]: (12)(9)(1)(4) (13)(9)(0)(4) (14)(7)(0)(2) 
+[21609.162583]  (0)[216:hps_main][HPS] (0x7F03)<4>(4)(2) action end (700)(686)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(700)(0)(0) <4>(4)(0)
+[21609.202877]  (5)[216:hps_main]MobiCore mcd: Cpu 7 is going to die
+[21609.204388]  (5)[216:hps_main]CPU7: shutdown
+[21609.204436]  (5)[216:hps_main]psci: CPU7 killed.
+[21609.205222]  (5)[216:hps_main]MobiCore mcd: Cpu 7 is dead
+[21609.206017]  (5)[216:hps_main]MobiCore mcd: Cpu 6 is going to die
+[21609.207561]  (5)[216:hps_main]CPU6: shutdown
+[21609.207597]  (5)[216:hps_main]psci: CPU6 killed.
+[21609.208438]  (5)[216:hps_main]MobiCore mcd: Cpu 6 is dead
+[21609.209201]  (5)[216:hps_main]MobiCore mcd: Cpu 5 is going to die
+[21609.210865]  (2)[216:hps_main]CPU5: shutdown
+[21609.210906]  (2)[216:hps_main]psci: CPU5 killed.
+[21609.211777]  (2)[216:hps_main]MobiCore mcd: Cpu 5 is dead
+[21609.212519]  (2)[216:hps_main][HPS] (0x7F03)<4>(4)(0) action end (430)(379)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(430)(0)(0) <4>(1)(0)
+[21609.252804]  (0)[216:hps_main]MobiCore mcd: Cpu 4 is going to die
+[21609.252853]  (0)[216:hps_main][CPUHVFS] (0) [049eb082] cluster1 off, pause = 0x0, swctrl = 0x59f0 (0xcc799)
+[21609.255155]  (0)[216:hps_main]CPU4: shutdown
+[21609.255323]  (0)[216:hps_main]psci: CPU4 killed.
+[21609.256235]  (0)[216:hps_main]MobiCore mcd: Cpu 4 is dead
+[21609.256497]  (2)[96:pbm][Power/PPM] (0x4b8)(1500)(0)[4LL_L]: (12)(0)(1)(4) (13)(2)(0)(4) (14)(7)(0)(2) 
+[21609.257006]  (0)[216:hps_main][HPS] (0x7F03)<4>(1)(0) action end (340)(379)(0) (0)(0)(0) (4)(4)(2)(1)(0)(0) (0)(340)(0)(0) <4>(0)(0)
+[21609.296921]  (1)[1:init][gps]null pointer!!
+[21609.341217]  (0)[1:init]reboot: Restarting system with command ''
+[21609.341243] -(0)[1:init]machine_restart, arm_pm_restart(          (null))
+[21609.341250] -(0)[1:init]ARCH_RESET happen!!!
+[21609.341256] -(0)[1:init]arch_reset: cmd = 
+[21609.341266] -(0)[1:init]CPU: 0 PID: 1 Comm: init Tainted: G        W      3.18.22-user-01320-g9ca8357 #1
+[21609.341271] -(0)[1:init]Hardware name: MT6797T (DT)
+[21609.341277] -(0)[1:init]Call trace:
+[21609.341293] -(0)[1:init][<ffffffc00008b8ac>] dump_backtrace+0x0/0x15c
+[21609.341301] -(0)[1:init][<ffffffc00008ba18>] show_stack+0x10/0x1c
+[21609.341311] -(0)[1:init][<ffffffc000b60d84>] dump_stack+0x74/0xb8
+[21609.341323] -(0)[1:init][<ffffffc00085f218>] arch_reset+0x38/0xf8
+[21609.341330] -(0)[1:init][<ffffffc00085f304>] mtk_arch_reset_handle+0x2c/0x48
+[21609.341340] -(0)[1:init][<ffffffc0000c11e0>] notifier_call_chain+0x84/0x2d4
+[21609.341347] -(0)[1:init][<ffffffc0000c15bc>] atomic_notifier_call_chain+0x30/0x48
+[21609.341356] -(0)[1:init][<ffffffc0000c28f4>] do_kernel_restart+0x1c/0x28
+[21609.341363] -(0)[1:init][<ffffffc000087d8c>] machine_restart+0x5c/0x64
+[21609.341371] -(0)[1:init][<ffffffc0000c29d8>] kernel_restart+0x3c/0x74
+[21609.341378] -(0)[1:init][<ffffffc0000c2d14>] SyS_reboot+0x19c/0x1f0
+.158435< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18854.158435< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18854.158435< md_settle = 103, settle = 99
+>18854.158435< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18854.158435< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 249885, r13 = 0x14066000, debug_flag = 0x13ff
+>18854.158435< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18854.158435< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18854.158435< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18854.158435< dump ID_DUMP_MD_SLEEP_MODE>18854.158435< R15: 0x40e
+>18855.078270< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18855.078270< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18855.078270< md_settle = 103, settle = 99
+>18855.078270< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18855.078270< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 35548, r13 = 0x14066000, debug_flag = 0x13fc
+>18855.078270< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18855.078270< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18855.078270< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18855.078270< dump ID_DUMP_MD_SLEEP_MODE>18855.078270< R15: 0x40c
+>18857.796294< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18857.796294< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18857.796294< md_settle = 103, settle = 99
+>18857.796294< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18857.796294< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 14131, r13 = 0x14066000, debug_flag = 0x13fc
+>18857.796294< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18857.796294< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18857.796294< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18857.796294< dump ID_DUMP_MD_SLEEP_MODE>18857.796294< R15: 0x40e
+>18858.198161< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18858.198161< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18858.198161< md_settle = 103, settle = 99
+>18858.198161< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18858.198161< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 7871, r13 = 0x14066000, debug_flag = 0x10fc
+>18858.198161< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18858.198161< raw_ext_sta = 0x1aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18858.198161< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18858.198161< dump ID_DUMP_MD_SLEEP_MODE>18858.198161< R15: 0x40e
+>18858.748174< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18858.748174< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18858.748174< md_settle = 103, settle = 99
+>18858.748174< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18858.748174< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 32646, r13 = 0x14066000, debug_flag = 0x10fc
+>18858.748174< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18858.748174< raw_ext_sta = 0x1aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18858.748174< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18858.748174< dump ID_DUMP_MD_SLEEP_MODE>18858.748174< R15: 0x40c
+>18859.517979< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18859.517979< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18859.517979< md_settle = 103, settle = 99
+>18859.517979< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18859.517979< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 62259, r13 = 0x14066000, debug_flag = 0x13ff
+>18859.517979< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1fb, event_reg = 0x90100000, isr = 0x18
+>18859.517979< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18859.517979< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18859.517979< dump ID_DUMP_MD_SLEEP_MODE>18859.517979< R15: 0x40e
+>18860.087915< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18860.087915< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18860.087915< md_settle = 103, settle = 99
+>18860.087915< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18860.087915< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 112663, r13 = 0x14066000, debug_flag = 0x13fc
+>18860.087915< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18860.087915< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18860.087915< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18860.087915< dump ID_DUMP_MD_SLEEP_MODE>18860.087915< R15: 0x40e
+>18860.508956< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18860.508956< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18860.508956< md_settle = 103, settle = 99
+>18860.508956< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18860.508956< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 183972, r13 = 0x14066000, debug_flag = 0x13ff
+>18860.508956< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18860.508956< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18860.508956< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18860.508956< dump ID_DUMP_MD_SLEEP_MODE>18860.508956< R15: 0x40d
+>18862.897595< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18862.897595< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18862.897595< md_settle = 103, settle = 99
+>18862.897595< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18862.897595< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 52075, r13 = 0x14066000, debug_flag = 0x13fc
+>18862.897595< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1fb, event_reg = 0x90100000, isr = 0x18
+>18862.897595< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18862.897595< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18862.897595< dump ID_DUMP_MD_SLEEP_MODE>18862.897595< R15: 0x40e
+>18863.297601< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18863.297601< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18863.297601< md_settle = 103, settle = 99
+>18863.297601< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18863.297601< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 184308, r13 = 0x14066000, debug_flag = 0x13ff
+>18863.297601< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18863.297601< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18863.297601< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18863.297601< dump ID_DUMP_MD_SLEEP_MODE>18863.297601< R15: 0x40d
+>18863.867434< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18863.867434< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18863.867434< md_settle = 103, settle = 99
+>18863.867434< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18863.867434< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 23517, r13 = 0x14066000, debug_flag = 0x10fc
+>18863.867434< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18863.867434< raw_ext_sta = 0x1aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18863.867434< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18863.867434< dump ID_DUMP_MD_SLEEP_MODE>18863.867434< R15: 0x40c
+>18864.417459< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18864.417459< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18864.417459< md_settle = 103, settle = 99
+>18864.417459< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18864.417459< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 70774, r13 = 0x14066000, debug_flag = 0x13fc
+>18864.417459< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18864.417459< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18864.417459< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18864.417459< dump ID_DUMP_MD_SLEEP_MODE>18864.417459< R15: 0x40e
+>18864.837423< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18864.837423< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18864.837423< md_settle = 103, settle = 99
+>18864.837423< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18864.837423< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 183652, r13 = 0x14066000, debug_flag = 0x13ff
+>18864.837423< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18864.837423< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18864.837423< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18864.837423< dump ID_DUMP_MD_SLEEP_MODE>18864.837423< R15: 0x40c
+>18865.359866< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18865.359866< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18865.359866< md_settle = 103, settle = 99
+>18865.359866< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18865.359866< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 48259, r13 = 0x14066000, debug_flag = 0x13fc
+>18865.359866< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18865.359866< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18865.359866< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18865.359866< dump ID_DUMP_MD_SLEEP_MODE>18865.359866< R15: 0x40e
+>18865.787281< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18865.787281< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18865.787281< md_settle = 103, settle = 99
+>18865.787281< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18865.787281< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 84239, r13 = 0x14066000, debug_flag = 0x13ff
+>18865.787281< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18865.787281< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18865.787281< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18865.787281< dump ID_DUMP_MD_SLEEP_MODE>18865.787281< R15: 0x40e
+>18866.357044< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18866.357044< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18866.357044< md_settle = 103, settle = 99
+>18866.357044< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18866.357044< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 46982, r13 = 0x5406712c, debug_flag = 0x13fc
+>18866.357044< r12 = 0x20, r12_ext = 0x0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18866.357044< raw_ext_sta = 0x59a55, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18866.357044< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18866.357044< dump ID_DUMP_MD_SLEEP_MODE>18866.357044< R15: 0x40f
+>18866.757013< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18866.757013< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18866.757013< md_settle = 103, settle = 99
+>18866.757013< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18866.757013< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 85275, r13 = 0x14066000, debug_flag = 0x13ff
+>18866.757013< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18866.757013< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18866.757013< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18866.757013< dump ID_DUMP_MD_SLEEP_MODE>18866.757013< R15: 0x40e
+>18867.857084< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18867.857084< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18867.857084< md_settle = 103, settle = 99
+>18867.857084< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18867.857084< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 95233, r13 = 0x14066000, debug_flag = 0x13fc
+>18867.857084< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18867.857084< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18867.857084< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18867.857084< dump ID_DUMP_MD_SLEEP_MODE>18867.857084< R15: 0x40e
+>18869.216910< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18869.216910< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18869.216910< md_settle = 103, settle = 99
+>18869.216910< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18869.216910< wake up by R12_EINT_EVENT_B, timer_out = 93342, r13 = 0x14060000, debug_flag = 0x13ff
+>18869.216910< r12 = 0x40, r12_ext = 0x20a0, raw_sta = 0x40, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18869.216910< raw_ext_sta = 0x6aaaa, wake_misc = 0x10000, pcm_flag = 0x10030, scp_request_freq = 0>18869.216910< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18869.216910< dump ID_DUMP_MD_SLEEP_MODE>18869.216910< R15: 0x40e
+>18871.545170< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18871.545170< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18871.545170< md_settle = 103, settle = 99
+>18871.545170< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18871.545170< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 58442, r13 = 0x14066000, debug_flag = 0x13fc
+>18871.545170< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18871.545170< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18871.545170< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18871.545170< dump ID_DUMP_MD_SLEEP_MODE>18871.545170< R15: 0x40c
+>18871.977084< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18871.977084< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18871.977084< md_settle = 103, settle = 99
+>18871.977084< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18871.977084< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 218475, r13 = 0x14066000, debug_flag = 0x13ff
+>18871.977084< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18871.977084< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18871.977084< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18871.977084< dump ID_DUMP_MD_SLEEP_MODE>18871.977084< R15: 0x40c
+>18872.556659< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18872.556659< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18872.556659< md_settle = 103, settle = 99
+>18872.556659< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18872.556659< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 111895, r13 = 0x14066000, debug_flag = 0x13fc
+>18872.556659< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18872.556659< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18872.556659< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18872.556659< dump ID_DUMP_MD_SLEEP_MODE>18872.556659< R15: 0x40d
+>18872.956763< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18872.956763< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18872.956763< md_settle = 103, settle = 99
+>18872.956763< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18872.956763< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 183954, r13 = 0x14066000, debug_flag = 0x13ff
+>18872.956763< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18872.956763< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18872.956763< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18872.956763< dump ID_DUMP_MD_SLEEP_MODE>18872.956763< R15: 0x40e
+>18873.526663< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18873.526663< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18873.526663< md_settle = 103, settle = 99
+>18873.526663< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18873.526663< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 112516, r13 = 0x14066000, debug_flag = 0x13fc
+>18873.526663< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18873.526663< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18873.526663< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18873.526663< dump ID_DUMP_MD_SLEEP_MODE>18873.526663< R15: 0x40c
+>18873.926626< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18873.926626< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18873.926626< md_settle = 103, settle = 99
+>18873.926626< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18873.926626< wake up by R12_EINT_EVENT_B, timer_out = 77181, r13 = 0x14060000, debug_flag = 0x13ff
+>18873.926626< r12 = 0x40, r12_ext = 0x20a0, raw_sta = 0x40, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18873.926626< raw_ext_sta = 0x6aaaa, wake_misc = 0x10000, pcm_flag = 0x10030, scp_request_freq = 0>18873.926626< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18873.926626< dump ID_DUMP_MD_SLEEP_MODE>18873.926626< R15: 0x40d
+>18874.384676< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18874.384676< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18874.384676< md_settle = 103, settle = 99
+>18874.384676< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18874.384676< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 91635, r13 = 0x14066000, debug_flag = 0x13ff
+>18874.384676< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18874.384676< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18874.384676< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18874.384676< dump ID_DUMP_MD_SLEEP_MODE>18874.384676< R15: 0x40d
+>18877.404561< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18877.404561< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18877.404561< md_settle = 103, settle = 99
+>18877.404561< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18877.404561< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 32336, r13 = 0x14066000, debug_flag = 0x13fc
+>18877.404561< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18877.404561< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>18877.404561< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18877.404561< dump ID_DUMP_MD_SLEEP_MODE>18877.404561< R15: 0x40c
+>18877.816449< [dlpt_R] pre_SOC=85 SOC=85 skip
+>18877.816449< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>18877.816449< md_settle = 103, settle = 99
+>18877.816449< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>18877.816449< wake up by R12_EINT_EVENT_B, timer_out = 164423, r13 = 0x14060000, debug_flag = 0x13ff
+>18877.816449< r12 = 0x40, r12_ext = 0x20a0, raw_sta = 0x40, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>18877.816449< raw_ext_sta = 0x6aaaa, wake_misc = 0x10000, pcm_flag = 0x10030, scp_request_freq = 0>18877.816449< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>18877.816449< dump ID_DUMP_MD_SLEEP_MODE>18877.816449< R15: 0x40e
+>19199.194584< [1,Trigger ADC PTIM mode] volt1=41264, curr_1=2
+>19199.194584< [2,enable dummy load]>19199.194584< [3,Trigger ADC PTIM mode again] volt2=41177, curr_2=129
+>19199.194584< [4,Calculate Rac] bypass due to (curr_x-curr_y) < 40mA
+>19199.194584< volt_1 = 41264,volt_2 = 41177,curr_1 = 2,curr_2 = 129,rac_cal = 0,ret = -1,retry_count = 0
+>19199.194584<  41264,41177,2,129,0,-1,0
+>19199.194584< [1,Trigger ADC PTIM mode] volt1=41244, curr_1=40
+>19199.194584< [2,enable dummy load]>19199.194584< [3,Trigger ADC PTIM mode again] volt2=41177, curr_2=136
+>19199.194584< [4,Calculate Rac] bypass due to (curr_x-curr_y) < 40mA
+>19199.194584< volt_1 = 41244,volt_2 = 41177,curr_1 = 40,curr_2 = 136,rac_cal = 0,ret = -1,retry_count = 1
+>19199.194584<  41244,41177,40,136,0,-1,1
+>19199.194584< [1,Trigger ADC PTIM mode] volt1=41248, curr_1=35
+>19199.194584< [2,enable dummy load]>19199.194584< [3,Trigger ADC PTIM mode again] volt2=41182, curr_2=143
+>19199.194584< [4,Calculate Rac] bypass due to (curr_x-curr_y) < 40mA
+>19199.194584< volt_1 = 41248,volt_2 = 41182,curr_1 = 35,curr_2 = 143,rac_cal = 0,ret = -1,retry_count = 2
+>19199.194584<  41248,41182,35,143,0,-1,2
+>19199.194584< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19199.194584< md_settle = 103, settle = 99
+>19199.194584< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19199.194584< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 35407, r13 = 0x14066000, debug_flag = 0x13fc
+>19199.194584< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19199.194584< raw_ext_sta = 0x5aaa9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19199.194584< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19199.194584< dump ID_DUMP_MD_SLEEP_MODE>19199.194584< R15: 0x40d
+>19199.626208< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19199.626208< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19199.626208< md_settle = 103, settle = 99
+>19199.626208< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19199.626208< wake up by R12_EINT_EVENT_B, timer_out = 135007, r13 = 0x1c060000, debug_flag = 0x13ff
+>19199.626208< r12 = 0x40, r12_ext = 0x20a0, raw_sta = 0x40, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19199.626208< raw_ext_sta = 0x6a6aa, wake_misc = 0x10000, pcm_flag = 0x10030, scp_request_freq = 0>19199.626208< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19199.626208< dump ID_DUMP_MD_SLEEP_MODE>19199.626208< R15: 0x40e
+>19202.264335< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19202.264335< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19202.264335< md_settle = 103, settle = 99
+>19202.264335< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19202.264335< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 18707, r13 = 0x1c066000, debug_flag = 0x10fc
+>19202.264335< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19202.264335< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19202.264335< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19202.264335< dump ID_DUMP_MD_SLEEP_MODE>19202.264335< R15: 0x40e
+>19202.816117< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19202.816117< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19202.816117< md_settle = 103, settle = 99
+>19202.816117< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19202.816117< wake up by R12_EINT_EVENT_B, timer_out = 73003, r13 = 0x5c02712c, debug_flag = 0x13fc
+>19202.816117< r12 = 0x40, r12_ext = 0x0, raw_sta = 0x40, idle_sta = 0xff, event_reg = 0x90100000, isr = 0x18
+>19202.816117< raw_ext_sta = 0x59655, wake_misc = 0x10000, pcm_flag = 0x10030, scp_request_freq = 0>19202.816117< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19202.816117< dump ID_DUMP_MD_SLEEP_MODE>19202.816117< R15: 0x40c
+>19203.684388< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19203.684388< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19203.684388< md_settle = 103, settle = 99
+>19203.684388< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19203.684388< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 56991, r13 = 0x1c066000, debug_flag = 0x13fc
+>19203.684388< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19203.684388< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19203.684388< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19203.684388< dump ID_DUMP_MD_SLEEP_MODE>19203.684388< R15: 0x40d
+>19205.016816< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19205.016816< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19205.016816< md_settle = 103, settle = 99
+>19205.016816< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19205.016816< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 48642, r13 = 0x1c066000, debug_flag = 0x13fc
+>19205.016816< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19205.016816< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19205.016816< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19205.016816< dump ID_DUMP_MD_SLEEP_MODE>19205.016816< R15: 0x40e
+>19205.416000< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19205.416000< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19205.416000< md_settle = 103, settle = 99
+>19205.416000< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19205.416000< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 76734, r13 = 0x1c066000, debug_flag = 0x13ff
+>19205.416000< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19205.416000< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19205.416000< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19205.416000< dump ID_DUMP_MD_SLEEP_MODE>19205.416000< R15: 0x40c
+>19205.985887< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19205.985887< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19205.985887< md_settle = 103, settle = 99
+>19205.985887< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19205.985887< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 46996, r13 = 0x1c066000, debug_flag = 0x13fc
+>19205.985887< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19205.985887< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19205.985887< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19205.985887< dump ID_DUMP_MD_SLEEP_MODE>19205.985887< R15: 0x40e
+>19206.785760< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19206.785760< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19206.785760< md_settle = 103, settle = 99
+>19206.785760< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19206.785760< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 39188, r13 = 0x1c066000, debug_flag = 0x13fc
+>19206.785760< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19206.785760< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19206.785760< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19206.785760< dump ID_DUMP_MD_SLEEP_MODE>19206.785760< R15: 0x40c
+>19207.315654< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19207.315654< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19207.315654< md_settle = 103, settle = 99
+>19207.315654< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19207.315654< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 52865, r13 = 0x1c066000, debug_flag = 0x13fc
+>19207.315654< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19207.315654< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19207.315654< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19207.315654< dump ID_DUMP_MD_SLEEP_MODE>19207.315654< R15: 0x40e
+>19207.715580< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19207.715580< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19207.715580< md_settle = 103, settle = 99
+>19207.715580< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19207.715580< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 18169, r13 = 0x1c066000, debug_flag = 0x10ff
+>19207.715580< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19207.715580< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19207.715580< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19207.715580< dump ID_DUMP_MD_SLEEP_MODE>19207.715580< R15: 0x40e
+>19208.285487< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19208.285487< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19208.285487< md_settle = 103, settle = 99
+>19208.285487< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19208.285487< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 44546, r13 = 0x1c066000, debug_flag = 0x13fc
+>19208.285487< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19208.285487< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19208.285487< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19208.285487< dump ID_DUMP_MD_SLEEP_MODE>19208.285487< R15: 0x40e
+>19208.835300< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19208.835300< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19208.835300< md_settle = 103, settle = 99
+>19208.835300< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19208.835300< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 18704, r13 = 0x1c066000, debug_flag = 0x13fc
+>19208.835300< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19208.835300< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19208.835300< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19208.835300< dump ID_DUMP_MD_SLEEP_MODE>19208.835300< R15: 0x40e
+>19209.347947< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19209.347947< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19209.347947< md_settle = 103, settle = 99
+>19209.347947< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19209.347947< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 14070, r13 = 0x1c066000, debug_flag = 0x13fc
+>19209.347947< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19209.347947< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19209.347947< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19209.347947< dump ID_DUMP_MD_SLEEP_MODE>19209.347947< R15: 0x40c
+>19209.775284< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19209.775284< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19209.775284< md_settle = 103, settle = 99
+>19209.775284< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19209.775284< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 100935, r13 = 0x1c066000, debug_flag = 0x13ff
+>19209.775284< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19209.775284< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19209.775284< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19209.775284< dump ID_DUMP_MD_SLEEP_MODE>19209.775284< R15: 0x40e
+>19212.573454< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19212.573454< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19212.573454< md_settle = 103, settle = 99
+>19212.573454< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19212.573454< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 28060, r13 = 0x1c066000, debug_flag = 0x13fc
+>19212.573454< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19212.573454< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19212.573454< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19212.573454< dump ID_DUMP_MD_SLEEP_MODE>19212.573454< R15: 0x40e
+>19213.877671< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19213.877671< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19213.877671< md_settle = 103, settle = 99
+>19213.877671< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19213.877671< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 22084, r13 = 0x1c066000, debug_flag = 0x13ff
+>19213.877671< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19213.877671< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19213.877671< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19213.877671< dump ID_DUMP_MD_SLEEP_MODE>19213.877671< R15: 0x40c
+>19214.417722< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19214.417722< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19214.417722< md_settle = 103, settle = 99
+>19214.417722< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19214.417722< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 48082, r13 = 0x1c066000, debug_flag = 0x13fc
+>19214.417722< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19214.417722< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19214.417722< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19214.417722< dump ID_DUMP_MD_SLEEP_MODE>19214.417722< R15: 0x40c
+>19215.104187< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19215.104187< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19215.104187< md_settle = 103, settle = 99
+>19215.104187< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19215.104187< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 219507, r13 = 0x1c066000, debug_flag = 0x13ff
+>19215.104187< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19215.104187< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19215.104187< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19215.104187< dump ID_DUMP_MD_SLEEP_MODE>19215.104187< R15: 0x40e
+>19215.674820< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19215.674820< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19215.674820< md_settle = 103, settle = 99
+>19215.674820< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19215.674820< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 46982, r13 = 0x1c066000, debug_flag = 0x13fc
+>19215.674820< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19215.674820< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19215.674820< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19215.674820< dump ID_DUMP_MD_SLEEP_MODE>19215.674820< R15: 0x40e
+>19216.074983< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19216.074983< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19216.074983< md_settle = 103, settle = 99
+>19216.074983< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19216.074983< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 23658, r13 = 0x1c066000, debug_flag = 0x13ff
+>19216.074983< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19216.074983< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19216.074983< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19216.074983< dump ID_DUMP_MD_SLEEP_MODE>19216.074983< R15: 0x40c
+>19216.644761< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19216.644761< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19216.644761< md_settle = 103, settle = 99
+>19216.644761< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19216.644761< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47212, r13 = 0x1c066000, debug_flag = 0x13fc
+>19216.644761< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19216.644761< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19216.644761< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19216.644761< dump ID_DUMP_MD_SLEEP_MODE>19216.644761< R15: 0x40e
+>19219.272939< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19219.272939< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19219.272939< md_settle = 103, settle = 99
+>19219.272939< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19219.272939< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 5068, r13 = 0x1c066000, debug_flag = 0x10fc
+>19219.272939< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19219.272939< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19219.272939< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19219.272939< dump ID_DUMP_MD_SLEEP_MODE>19219.272939< R15: 0x40c
+>19219.654881< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19219.654881< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19219.654881< md_settle = 103, settle = 99
+>19219.654881< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19219.654881< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 56142, r13 = 0x1c066000, debug_flag = 0x13ff
+>19219.654881< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19219.654881< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19219.654881< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19219.654881< dump ID_DUMP_MD_SLEEP_MODE>19219.654881< R15: 0x40c
+>19220.194701< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19220.194701< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19220.194701< md_settle = 103, settle = 99
+>19220.194701< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19220.194701< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47832, r13 = 0x1c066000, debug_flag = 0x13fc
+>19220.194701< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19220.194701< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19220.194701< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19220.194701< dump ID_DUMP_MD_SLEEP_MODE>19220.194701< R15: 0x40d
+>19220.594662< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19220.594662< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19220.594662< md_settle = 103, settle = 99
+>19220.594662< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19220.594662< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 188112, r13 = 0x1c066000, debug_flag = 0x13ff
+>19220.594662< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19220.594662< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19220.594662< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19220.594662< dump ID_DUMP_MD_SLEEP_MODE>19220.594662< R15: 0x40e
+>19222.804578< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19222.804578< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19222.804578< md_settle = 103, settle = 99
+>19222.804578< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19222.804578< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 58780, r13 = 0x1c066000, debug_flag = 0x13fc
+>19222.804578< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19222.804578< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19222.804578< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19222.804578< dump ID_DUMP_MD_SLEEP_MODE>19222.804578< R15: 0x40e
+>19223.214558< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19223.214558< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19223.214558< md_settle = 103, settle = 99
+>19223.214558< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19223.214558< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 224952, r13 = 0x1c066000, debug_flag = 0x13ff
+>19223.214558< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19223.214558< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19223.214558< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19223.214558< dump ID_DUMP_MD_SLEEP_MODE>19223.214558< R15: 0x40e
+>19223.754162< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19223.754162< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19223.754162< md_settle = 103, settle = 99
+>19223.754162< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19223.754162< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 113470, r13 = 0x1c066000, debug_flag = 0x13fc
+>19223.754162< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19223.754162< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19223.754162< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19223.754162< dump ID_DUMP_MD_SLEEP_MODE>19223.754162< R15: 0x40e
+>19225.224506< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19225.224506< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19225.224506< md_settle = 103, settle = 99
+>19225.224506< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19225.224506< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 148853, r13 = 0x1c06e010, debug_flag = 0x13ff
+>19225.224506< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19225.224506< raw_ext_sta = 0x59695, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19225.224506< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19225.224506< dump ID_DUMP_MD_SLEEP_MODE>19225.224506< R15: 0x40e
+>19225.774349< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19225.774349< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19225.774349< md_settle = 103, settle = 99
+>19225.774349< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19225.774349< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47685, r13 = 0x1c066000, debug_flag = 0x13fc
+>19225.774349< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19225.774349< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19225.774349< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19225.774349< dump ID_DUMP_MD_SLEEP_MODE>19225.774349< R15: 0x40d
+>19226.183351< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19226.183351< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19226.183351< md_settle = 103, settle = 99
+>19226.183351< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19226.183351< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 249016, r13 = 0x1c066000, debug_flag = 0x13ff
+>19226.183351< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19226.183351< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19226.183351< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19226.183351< dump ID_DUMP_MD_SLEEP_MODE>19226.183351< R15: 0x40c
+>19226.764044< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19226.764044< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19226.764044< md_settle = 103, settle = 99
+>19226.764044< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19226.764044< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 112286, r13 = 0x1c066000, debug_flag = 0x13fc
+>19226.764044< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19226.764044< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19226.764044< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19226.764044< dump ID_DUMP_MD_SLEEP_MODE>19226.764044< R15: 0x40c
+>19227.204128< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19227.204128< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19227.204128< md_settle = 103, settle = 99
+>19227.204128< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19227.204128< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 162081, r13 = 0x1c066000, debug_flag = 0x13ff
+>19227.204128< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19227.204128< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19227.204128< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19227.204128< dump ID_DUMP_MD_SLEEP_MODE>19227.204128< R15: 0x40e
+>19228.253848< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19228.253848< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19228.253848< md_settle = 103, settle = 99
+>19228.253848< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19228.253848< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 96898, r13 = 0x1c066000, debug_flag = 0x13fc
+>19228.253848< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19228.253848< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19228.253848< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19228.253848< dump ID_DUMP_MD_SLEEP_MODE>19228.253848< R15: 0x40e
+>19228.673835< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19228.673835< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19228.673835< md_settle = 103, settle = 99
+>19228.673835< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19228.673835< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 203802, r13 = 0x1c066000, debug_flag = 0x13ff
+>19228.673835< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19228.673835< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19228.673835< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19228.673835< dump ID_DUMP_MD_SLEEP_MODE>19228.673835< R15: 0x40e
+>19229.243676< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19229.243676< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19229.243676< md_settle = 103, settle = 99
+>19229.243676< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19229.243676< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47054, r13 = 0x1c066000, debug_flag = 0x13fc
+>19229.243676< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19229.243676< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19229.243676< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19229.243676< dump ID_DUMP_MD_SLEEP_MODE>19229.243676< R15: 0x40c
+>19229.643729< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19229.643729< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19229.643729< md_settle = 103, settle = 99
+>19229.643729< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19229.643729< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 270401, r13 = 0x1c066000, debug_flag = 0x13ff
+>19229.643729< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19229.643729< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19229.643729< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19229.643729< dump ID_DUMP_MD_SLEEP_MODE>19229.643729< R15: 0x40e
+>19230.183622< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19230.183622< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19230.183622< md_settle = 103, settle = 99
+>19230.183622< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19230.183622< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 25162, r13 = 0x1c066000, debug_flag = 0x13fc
+>19230.183622< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19230.183622< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19230.183622< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19230.183622< dump ID_DUMP_MD_SLEEP_MODE>19230.183622< R15: 0x40e
+>19230.743573< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19230.743573< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19230.743573< md_settle = 103, settle = 99
+>19230.743573< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19230.743573< wake up by R12_CLDMA_EVENT_B, timer_out = 60906, r13 = 0x5c02712c, debug_flag = 0x13fc
+>19230.743573< r12 = 0x4000000, r12_ext = 0x0, raw_sta = 0x4000000, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19230.743573< raw_ext_sta = 0x59655, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19230.743573< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19230.743573< dump ID_DUMP_MD_SLEEP_MODE>19230.743573< R15: 0x40d
+>19232.073639< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19232.073639< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19232.073639< md_settle = 103, settle = 99
+>19232.073639< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19232.073639< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 30716, r13 = 0x1c066000, debug_flag = 0x10fc
+>19232.073639< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19232.073639< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19232.073639< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19232.073639< dump ID_DUMP_MD_SLEEP_MODE>19232.073639< R15: 0x40e
+>19232.493502< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19232.493502< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19232.493502< md_settle = 103, settle = 99
+>19232.493502< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19232.493502< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 97037, r13 = 0x1c066000, debug_flag = 0x13ff
+>19232.493502< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19232.493502< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19232.493502< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19232.493502< dump ID_DUMP_MD_SLEEP_MODE>19232.493502< R15: 0x40e
+>19233.063137< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19233.063137< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19233.063137< md_settle = 103, settle = 99
+>19233.063137< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19233.063137< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47087, r13 = 0x1c066000, debug_flag = 0x13fc
+>19233.063137< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19233.063137< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19233.063137< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19233.063137< dump ID_DUMP_MD_SLEEP_MODE>19233.063137< R15: 0x40e
+>19233.464493< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19233.464493< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19233.464493< md_settle = 103, settle = 99
+>19233.464493< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19233.464493< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 249825, r13 = 0x1c066000, debug_flag = 0x13ff
+>19233.464493< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1fb, event_reg = 0x90100000, isr = 0x18
+>19233.464493< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19233.464493< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19233.464493< dump ID_DUMP_MD_SLEEP_MODE>19233.464493< R15: 0x40e
+>19234.023520< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19234.023520< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19234.023520< md_settle = 103, settle = 99
+>19234.023520< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19234.023520< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 112958, r13 = 0x1c066000, debug_flag = 0x13fc
+>19234.023520< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19234.023520< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19234.023520< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19234.023520< dump ID_DUMP_MD_SLEEP_MODE>19234.023520< R15: 0x40e
+>19234.453217< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19234.453217< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19234.453217< md_settle = 103, settle = 99
+>19234.453217< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19234.453217< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 100484, r13 = 0x1c066000, debug_flag = 0x13ff
+>19234.453217< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19234.453217< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19234.453217< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19234.453217< dump ID_DUMP_MD_SLEEP_MODE>19234.453217< R15: 0x40d
+>19235.073135< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19235.073135< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19235.073135< md_settle = 103, settle = 99
+>19235.073135< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19235.073135< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 46384, r13 = 0x1c066000, debug_flag = 0x13fc
+>19235.073135< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19235.073135< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19235.073135< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19235.073135< dump ID_DUMP_MD_SLEEP_MODE>19235.073135< R15: 0x40d
+>19235.492886< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19235.492886< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19235.492886< md_settle = 103, settle = 99
+>19235.492886< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19235.492886< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 1923, r13 = 0x1c066000, debug_flag = 0x10ff
+>19235.492886< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19235.492886< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19235.492886< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19235.492886< dump ID_DUMP_MD_SLEEP_MODE>19235.492886< R15: 0x40e
+>19236.282142< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19236.282142< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19236.282142< md_settle = 103, settle = 99
+>19236.282142< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19236.282142< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 39876, r13 = 0x1c066000, debug_flag = 0x13fc
+>19236.282142< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19236.282142< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19236.282142< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19236.282142< dump ID_DUMP_MD_SLEEP_MODE>19236.282142< R15: 0x40e
+>19237.581874< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19237.581874< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19237.581874< md_settle = 103, settle = 99
+>19237.581874< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19237.581874< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 219738, r13 = 0x1c066000, debug_flag = 0x13ff
+>19237.581874< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19237.581874< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19237.581874< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19237.581874< dump ID_DUMP_MD_SLEEP_MODE>19237.581874< R15: 0x40e
+>19238.153187< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19238.153187< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19238.153187< md_settle = 103, settle = 99
+>19238.153187< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19238.153187< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 112556, r13 = 0x1c066000, debug_flag = 0x13fc
+>19238.153187< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19238.153187< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19238.153187< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19238.153187< dump ID_DUMP_MD_SLEEP_MODE>19238.153187< R15: 0x40e
+>19241.361242< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19241.361242< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19241.361242< md_settle = 103, settle = 99
+>19241.361242< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19241.361242< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 80605, r13 = 0x1c066000, debug_flag = 0x13fc
+>19241.361242< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1fb, event_reg = 0x90100000, isr = 0x18
+>19241.361242< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19241.361242< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19241.361242< dump ID_DUMP_MD_SLEEP_MODE>19241.361242< R15: 0x40e
+>19241.912564< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19241.912564< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19241.912564< md_settle = 103, settle = 99
+>19241.912564< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19241.912564< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 31231, r13 = 0x1c066000, debug_flag = 0x10fc
+>19241.912564< r12 = 0x20, r12_ext = 0x80, raw_sta = 0x20, idle_sta = 0x1fb, event_reg = 0x90100000, isr = 0x18
+>19241.912564< raw_ext_sta = 0x1a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19241.912564< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19241.912564< dump ID_DUMP_MD_SLEEP_MODE>19241.912564< R15: 0x40d
+>19242.312715< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19242.312715< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19242.312715< md_settle = 103, settle = 99
+>19242.312715< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19242.312715< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 7365, r13 = 0x1c066000, debug_flag = 0x13fc
+>19242.312715< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19242.312715< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19242.312715< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19242.312715< dump ID_DUMP_MD_SLEEP_MODE>19242.312715< R15: 0x40e
+>19242.732780< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19242.732780< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19242.732780< md_settle = 103, settle = 99
+>19242.732780< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19242.732780< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 255775, r13 = 0x1c066000, debug_flag = 0x13ff
+>19242.732780< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19242.732780< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19242.732780< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19242.732780< dump ID_DUMP_MD_SLEEP_MODE>19242.732780< R15: 0x40e
+>19243.282610< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19243.282610< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19243.282610< md_settle = 103, settle = 99
+>19243.282610< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19243.282610< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47817, r13 = 0x1c066000, debug_flag = 0x13fc
+>19243.282610< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19243.282610< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19243.282610< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19243.282610< dump ID_DUMP_MD_SLEEP_MODE>19243.282610< R15: 0x40d
+>19243.702446< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19243.702446< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19243.702446< md_settle = 103, settle = 99
+>19243.702446< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19243.702446< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 269315, r13 = 0x1c066000, debug_flag = 0x13ff
+>19243.702446< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19243.702446< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19243.702446< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19243.702446< dump ID_DUMP_MD_SLEEP_MODE>19243.702446< R15: 0x40e
+>19244.252352< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19244.252352< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19244.252352< md_settle = 103, settle = 99
+>19244.252352< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19244.252352< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47798, r13 = 0x1c066000, debug_flag = 0x13fc
+>19244.252352< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19244.252352< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19244.252352< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19244.252352< dump ID_DUMP_MD_SLEEP_MODE>19244.252352< R15: 0x40e
+>19244.652233< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19244.652233< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19244.652233< md_settle = 103, settle = 99
+>19244.652233< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19244.652233< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 228884, r13 = 0x1c066000, debug_flag = 0x13ff
+>19244.652233< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19244.652233< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19244.652233< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19244.652233< dump ID_DUMP_MD_SLEEP_MODE>19244.652233< R15: 0x40e
+>19245.222098< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19245.222098< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19245.222098< md_settle = 103, settle = 99
+>19245.222098< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19245.222098< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 47004, r13 = 0x1c066000, debug_flag = 0x13fc
+>19245.222098< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19245.222098< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19245.222098< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19245.222098< dump ID_DUMP_MD_SLEEP_MODE>19245.222098< R15: 0x40c
+>19245.622095< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19245.622095< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19245.622095< md_settle = 103, settle = 99
+>19245.622095< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19245.622095< wake up by R12_CONN2AP_SPM_WAKEUP_B, timer_out = 249691, r13 = 0x1c066000, debug_flag = 0x13ff
+>19245.622095< r12 = 0x20, r12_ext = 0x20a0, raw_sta = 0x20, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19245.622095< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19245.622095< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19245.622095< dump ID_DUMP_MD_SLEEP_MODE>19245.622095< R15: 0x40d
+>19246.430424< [dlpt_R] pre_SOC=84 SOC=84 skip
+>19246.430424< Online CPU is 0, suspend FW ver. is pcm_suspend_fpb_v18_fix_thermal_ctrl
+>19246.430424< md_settle = 103, settle = 99
+>19246.430424< sec = 5400, wakesrc = 0xf07c5e5 (1)(1)
+>19246.430424< wake up by R12_EINT_EVENT_B, timer_out = 55688, r13 = 0x1c066000, debug_flag = 0x13fc
+>19246.430424< r12 = 0x40, r12_ext = 0x20a0, raw_sta = 0x40, idle_sta = 0x1ff, event_reg = 0x90100000, isr = 0x18
+>19246.430424< raw_ext_sta = 0x5a6a9, wake_misc = 0x0, pcm_flag = 0x10030, scp_request_freq = 0>19246.430424< suspend dormant state = 0, md32_flag = 0x0, md32_flag2 = 0, vcore_status = 1270000
+>19246.430424< dump ID_DUMP_MD_SLEEP_MODE>19246.430424< R15: 0x40c
+================ END of FILE ===============
+
