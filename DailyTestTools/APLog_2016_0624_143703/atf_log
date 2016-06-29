@@ -1,8 +1,0 @@
------ timezone:GMT
-INFO:    BL3-1: Initializing runtime services
-INFO:    BL3-1: Preparing for EL3 exit to normal world, LK
-INFO:    BL3-1: Next image address = 0x46000000
-INFO:    BL3-1: Next image spsr = 0x1d3
-INFO:    BL3-1: Preparing for EL3 exit to normal world, Kernel
-INFO:    BL3-1: Next image address = 0x40080000
-INFO:    BL3-1: Next image spsr = 0x3c9

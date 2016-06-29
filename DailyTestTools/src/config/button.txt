@@ -1,1 +1,0 @@
-{"buttons":[{"name":"clear1","command":"pm clear com.android.browser"},{"name":"getIP@window","command":"ipconfig"},{"name":"ewfdwe","command":"pm clear com.android.browser"}]}
